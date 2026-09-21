@@ -1,0 +1,4 @@
+﻿---
+title: Bibble
+---
+# {{ title }}
