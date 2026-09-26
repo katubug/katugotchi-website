@@ -17,7 +17,7 @@
   --text-color: #4b5c78;
   --sidebar-text-color: #1a5b8c;
   --link-color: #f385ec;
-  --link-color-hover: #ffffff;
+  --link-color-hover: #1b6f70;
 
   /* Text: */
   --font: 'Short Stack', sans-serif;
@@ -28,7 +28,7 @@
   --margin: 10px;
   --padding: 15px;
   --border: none;
-  --round-borders: 0px;
+  --round-borders: 15px;
   --sidebar-width: 200px;
 }
 
