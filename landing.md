@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>katugotchi - resources and tamagotchi art</title>
+    <meta name="description" content="katugotchi is a site for tamagotchi art, thoughts, and resource links!">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Short+Stack&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">    
+  </head>
+  <body>
+
+  <div class="tamagotchi"><p>hello</p></div>
