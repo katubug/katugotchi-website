@@ -156,7 +156,7 @@ aside {
 }
 
 .blog {
-  font-size:smaller;
+  font-size:0.8em;
 }
 
 .left-sidebar {
@@ -424,7 +424,7 @@ main h5,
 main h6 {
   font-family: var(--heading-font);
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 main h1:first-child,
@@ -437,15 +437,18 @@ main h6:first-child {
 }
 
 main h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  color:#1b6f70;
 }
 
 main h2 {
-  font-size: 1.4em;
+  font-size: 1.5em;
+  color:#319395;
 }
 
 main h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  color: #53b3b4;
 }
 
 main h4 {

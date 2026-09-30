@@ -14,5 +14,3 @@ welcome to katugotchi
     Feed my tama-NOT-chi:
 
       <a href="https://tamanotchi.world/38380c" target="_blank"><img src="https://tamanotchi.world/i2/38380" alt="It's tamaNOTchi! Click to feed!"></a>
-
-      <iframe src="https://users3.smartgb.com/g/g.php?a=a&i=g36-42352-d5" title="sign my guestbook!">

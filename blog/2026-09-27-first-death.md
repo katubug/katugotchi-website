@@ -1,5 +1,6 @@
 ---
-title: my first dead tama
+date: 2026-09-27
+title: "my first dead tama"
 ---
 
 You're not going to believe me when I say this, but for the first time in my 41 years of life, one of my tamagotchis died. Of course there's a catch - I'm not counting the times as a kid where I stopped playing it and just left it in the drawer, never to be seen again. But this is the first time I have have a tamagotchi *that I was actively playing* die on me.
