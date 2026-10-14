@@ -569,6 +569,28 @@ main h6 {
     font-size: 0.9em;
   }
 
+details {
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: #555;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details .small li {
+  font-size: 0.85em !important;
+  line-height: 1.4;
+}
+
+details .small h4 {
+  font-size: 1em;
+  margin: 1em 0 0.3em;
+}
   
   nav {
     padding: 0;

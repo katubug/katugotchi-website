@@ -22,11 +22,13 @@ The channels below are ones that I have found but don't have opinions on yet:
 
 
 ## Tamagotchi Playlists
-### - Playlists - Lovely Lor's Tamagotchi Playlist
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=0hr-47iVHmt-oMSt&amp;list=PLc4bg_GTWPGby6D4EmEQEGec3ZDRSRoeC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<ul>
+<li>Playlists - Lovely Lor's Tamagotchi Playlist
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=0hr-47iVHmt-oMSt&amp;list=PLc4bg_GTWPGby6D4EmEQEGec3ZDRSRoeC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
 
-### - Playlists - Tamagotchi Adventure Kingdom Gameplay by Lola (no commentary)
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=ctAVWLXGtLL_6Qlc&amp;list=PLkAxbuEE5vHt-dMDKjS3gjLV9UyjDd8qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<li>Playlists - Tamagotchi Adventure Kingdom Gameplay by Lola (no commentary)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=ctAVWLXGtLL_6Qlc&amp;list=PLkAxbuEE5vHt-dMDKjS3gjLV9UyjDd8qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+</ul>
 
 ## Specific Videos
 ### - History of Tamagotchi
@@ -40,13 +42,13 @@ The channels below are ones that I have found but don't have opinions on yet:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3_PvOEHy1c0?si=6CxM3yi8hm907FKN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### - DIY - Tamagotchi Customizing
-
+<ul>
+<li>DIY - Tamagotchi Customizing
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HTnus_Z_ID0?si=aYM0guUe7cHIcI9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MSSvRNCYU60?si=vtJ6XsOr-swO3QRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MSSvRNCYU60?si=vtJ6XsOr-swO3QRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
 
-### - DIY - Tamagotchi Repair and Modding
+<li>DIY - Tamagotchi Repair and Modding
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e-HpRtaBrKA?si=5Mx0G_we8w6pBiz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -56,4 +58,5 @@ The channels below are ones that I have found but don't have opinions on yet:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CDt2FtKHsB8?si=sne6sKu9dRLTzmYN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G1fNRnZ7RyE?si=5uy82VYikDMwI7y1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G1fNRnZ7RyE?si=5uy82VYikDMwI7y1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+</ul>
