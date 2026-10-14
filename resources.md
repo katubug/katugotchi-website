@@ -5,11 +5,19 @@ layout: layout.html
 
 This page will contain links to other tamagotchi tutorials or important content, as curated by me. If you know of a site that should be linked here, please reach out to me (HeyKatu on Discord for now) and let me know!
 
+## Table of Contents
+- [Tamagotchi Emulation Resources](#tamagotchi-emulation-resources)
+- [Hacking the Tamagotchi Paradise](#hacking-the-tamagotchi-paradise)
+- [Websites that Interact with Devices](#websites-that-interact-with-devices)
+- [Tamagotchi Shops](#tamagotchi-shops)
+- [General Fansites](#general-fansites)
+- [YouTube Resources](#youtube-resources)
+
 First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combines Jade Forest, White Glacier, and Tropical growth charts into one image:
 
 <a href="/images/tamagotchigrowthchart.png"><img src="/images/tamagotchigrowthchart.png" width=250 height=250> Click to zoom</a>
       
-<h3>Tamagotchi Emulation Resources</h3>
+### Tamagotchi Emulation Resources <a name="tamagotchi-emulation-resources"></a>
     
 * <a href="https://samandev.itch.io/tamaweb">TamaWeb</a> - play a tamagotchi-inspired fangame in your browser, on your PC, or your Android!</li>
 * <a href="https://maragotchi.github.io/tamaemu-web/">TamaEmu for Web</a> - runs the P's, iDL/E, 4U, 4U+, and Plus Color ROMs.</li>
@@ -19,7 +27,7 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 
 Now, you're probably wondering, where do you get ROMs, anyway? And you can't ask *anywhere*, it seems. Well, hopefully I am not breaking the internet by saying that <a href="https://archive.org/search?tab=all&query=tamagotchi&and%5B%5D=mediatype%3A%22software%22">you can find them on the internet archive</a>. Please use this information responsibly.
 
-<h3>Hacking the Tamagotchi Paradise</h3>
+### Hacking the Tamagotchi Paradise  <a name="hacking-the-tamagotchi-paradise"></a>
 
 To hack the Tamagotchi Paradise, you will need a device that allows your Paradise to communicate with your device of choice. There are 3 main adaptors: the UART Dongle, the PCOM, and the Patchi Paradise. Here is a quick rundown of the differences:
 <ul>
@@ -61,7 +69,8 @@ With that out of the way, on to the resources:
 <li><a href="https://ko-fi.com/neomametchi" target="_blank">Neomametchi</a> - Free and paid custom ingame items for the Tamagotchi Paradise.</li>
 </ul>
 
-<h3>Websites that Interact with Devices</h3>
+### Websites that Interact with Devices <a name="websites-that-interact-with-devices"></a>
+
 <ul>
 <li><a href="http://www.ginjirotchi.ca/entama.html" target="_blank">Ginjirotchi's Entama Shop</a> - a place where you can enter your codes
 <details>
@@ -88,18 +97,20 @@ With that out of the way, on to the resources:
 </details></li></ul>
 
 
-<h3>Tamagotchi Shops</h3>
+### Tamagotchi Shops <a name="tamagotchi-shops"></a>
+
 <ul>
 <li><a href="https://ko-fi.com/electronicdays/shop" target="_blank">Electronic Days</a> - custom shells and accessories</li>
 </ul>
 
-<h3>General Fansites</h3>
+### General Fansites <a name="general-fansites"></a>
+
 <ul>
 <li><a href="http://www.ginjirotchi.ca/TamaMain.html" target="_blank">Ginjirotchi.ca</a> - </li>
 
 </ul>
 
-<h3>YouTube Resources</h3>
+### YouTube Resources <a name="youtube-resources"></a>
 
 <ul><li><a href="/youtube/">Click here for YouTube resources!</a></li></ul>
 
