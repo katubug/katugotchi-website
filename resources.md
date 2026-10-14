@@ -9,6 +9,7 @@ This page will contain links to other tamagotchi tutorials or important content,
 - [Tamagotchi Emulation Resources](#tamagotchi-emulation-resources)
 - [Hacking the Tamagotchi Paradise](#hacking-the-tamagotchi-paradise)
 - [Websites that Interact with Devices](#websites-that-interact-with-devices)
+- [Tamagotchi Knowledge](#tamagotchi-knowledge)
 - [Tamagotchi Shops](#tamagotchi-shops)
 - [General Fansites](#general-fansites)
 - [YouTube Resources](#youtube-resources)
@@ -19,11 +20,11 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
       
 ### Tamagotchi Emulation Resources <a name="tamagotchi-emulation-resources"></a>
     
-* <a href="https://samandev.itch.io/tamaweb">TamaWeb</a> - play a tamagotchi-inspired fangame in your browser, on your PC, or your Android!</li>
-* <a href="https://maragotchi.github.io/tamaemu-web/">TamaEmu for Web</a> - runs the P's, iDL/E, 4U, 4U+, and Plus Color ROMs.</li>
-* <a href="https://github.com/mameise/TamaEmu_Android/releases">TamaEmu for Android</a> - Same program as above, adapted to run on an Android device.</li>
-* <a href="https://github.com/mameise/T18Emu">T18Emu</a> - An emulator for Tamagotchi On. Currently only works with English ROMs.</li>
-      </ul>
+* [TamaWeb](https://samandev.itch.io/tamaweb) - play a tamagotchi-inspired fangame in your browser, on your PC, or your Android!
+* [TamaEmu for Web](https://maragotchi.github.io/tamaemu-web/) - runs the P's, iDL/E, 4U, 4U+, and Plus Color ROMs.
+* <a href="https://github.com/mameise/TamaEmu_Android/releases">TamaEmu for Android</a> - Same program as above, adapted to run on an Android device.
+* <a href="https://github.com/mameise/T18Emu">T18Emu</a> - An Android emulator for Tamagotchi On and Meets.
+* [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On AND Meets.
 
 Now, you're probably wondering, where do you get ROMs, anyway? And you can't ask *anywhere*, it seems. Well, hopefully I am not breaking the internet by saying that <a href="https://archive.org/search?tab=all&query=tamagotchi&and%5B%5D=mediatype%3A%22software%22">you can find them on the internet archive</a>. Please use this information responsibly.
 
@@ -44,6 +45,7 @@ With that out of the way, on to the resources:
 <li><a href="https://ko-fi.com/s/1843fe1f03" target="_blank">TamaHome App</a> - Designed to make custom items, ghosts, and playdates simple without relying on proprietary hardware or online services.</li>
 <li><a href="https://ko-fi.com/s/0cba4105ef" target="_blank">TamaSprite App</a> - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.</li>
 <li><a href="https://ko-fi.com/s/d48fe485c7" target="_blank">Paradise Sprite Browser</a> - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."</li>
+<li><a href="https://discord.com/invite/CdSFTpWHk" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
 </ul>
 
 <li><a href="https://tools.bbamorachi.us/" target="_blank">bbamoratchi tools</a> - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.</li>
@@ -96,6 +98,8 @@ With that out of the way, on to the resources:
   </div>
 </details></li></ul>
 
+### Tamagotchi Knowledge <a name="tamagotchi-knowledge"><a>
+* [Tama Conservatory](https://tamaconservatory.blogspot.com/) - A compendium of virtual pet manuals, in multiple languages!
 
 ### Tamagotchi Shops <a name="tamagotchi-shops"></a>
 
