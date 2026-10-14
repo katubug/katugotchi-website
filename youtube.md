@@ -23,6 +23,10 @@ The channels below are ones that I have found but don't have opinions on yet:
 
 ## Tamagotchi Playlists
 <ul>
+
+<li>Playlists - The Forest Mori's Tamagotchi Playlist
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=9X34AVMFYlVWua2J&amp;list=PLH3aRJpTtI4wHwTDum5WmHKPddtPY-fUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+
 <li>Playlists - Lovely Lor's Tamagotchi Playlist
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=0hr-47iVHmt-oMSt&amp;list=PLc4bg_GTWPGby6D4EmEQEGec3ZDRSRoeC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
 

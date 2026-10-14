@@ -1,7 +1,3 @@
-/* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700');
-
-  
 /* -------------------------------------------------------- */
 /* VARIABLES */
 /* -------------------------------------------------------- */
@@ -22,7 +18,7 @@
   /* Text: */
   --font: 'Short Stack', sans-serif;
   --heading-font: 'Gorditas', sans-serif;
-  --font-size: 19px;
+  --font-size: 14px;
 
   /* Other Settings: */
   --margin: 10px;
@@ -41,10 +37,6 @@
 }
 
 body {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  min-height: 100vh;
   font-size: var(--font-size);
   margin: 0;
   padding: var(--margin);
@@ -53,19 +45,11 @@ body {
   line-height: 1.2;
   background: var(--background-color);
   background-image: url("https://katugotchi.neocities.org/images/bg.png");
-  
 }
 
 ::selection {
   /* (Text highlighted by the user) */
   background: rgba(0, 0, 0, 0.2);
-}
-
-mark {
-  /* Text highlighted by using the <mark> element */
-  text-shadow: 1px 1px 4px var(--link-color);
-  background-color: inherit;
-  color: var(--text-color);
 }
 
 /* Links: */
@@ -89,82 +73,41 @@ a:focus {
 /* -------------------------------------------------------- */
 
 .layout {
-  width: 1200px;
   display: grid;
-  grid-gap: var(--margin);
-  grid-template: "header header" auto "leftSidebar main" auto "footer footer" auto / var(--sidebar-width) auto;
-  /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
+  grid-template-columns: var(--sidebar-width) 1fr;
+  gap: var(--margin);
+  max-width: 1200px;
+  height: calc(100vh - 2 * var(--margin));
+  margin: 0 auto;
 }
 
-main {
-  grid-area: main;
+/* -------------------------------------------------------- */
+/* SIDEBAR */
+/* -------------------------------------------------------- */
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
-  padding: var(--padding);
-  background: var(--content-background-color);
+  overflow-x: hidden;
   border: var(--border);
   border-radius: var(--round-borders);
-}
-
-/* -------------------------------------------------------- */
-/* HEADER */
-/* -------------------------------------------------------- */
-
-header {
-  grid-area: header;
-  font-size: 1.2em;
-  border: var(--border);
-  border-radius: var(--round-borders);
-  background: var(--content-background-color);
-}
-
-.header-content {
-  padding: var(--padding);
-}
-
-.header-title {
-  font-family: var(--heading-font);
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.header-image img {
-  width: 100%;
-  height: auto;
-}
-
-/* -------------------------------------------------------- */
-/* SIDEBARS */
-/* -------------------------------------------------------- */
-
-aside {
-  grid-area: aside;
-  border: var(--border);
-  border-radius: var(--round-borders);
-  overflow: hidden;
   background: var(--sidebar-background-color);
   padding: var(--padding);
   color: var(--sidebar-text-color);
 }
 
-.tamagotchi {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('/images/tamagotchibg.png');
-  width: 1000px;
-  height: 1200px;
+.site-title {
+  font-family: var(--heading-font);
+  font-size: 1.4em; /* any bigger and it overflows the sidebar */
+  font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
-.blog {
-  font-size:0.8em;
-}
-
-.left-sidebar {
-  grid-area: leftSidebar;
-}
-
-.right-sidebar {
-  grid-area: rightSidebar;
+.site-title a,
+.site-title a:visited {
+  color: var(--sidebar-text-color);
+  text-decoration: none;
 }
 
 .sidebar-title {
@@ -174,19 +117,8 @@ aside {
 }
 
 .sidebar-section:not(:last-child) {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
-
-.sidebar-section ul,
-.sidebar-section ol {
-  padding-left: 1.5em;
-}
-
-.sidebar-section > *:not(p):not(ul):not(ol):not(blockquote) {
-  margin-top: 10px;
-}
-
-/* Sidebar Blockquote: */
 
 .sidebar-section blockquote {
   background: rgba(0, 0, 0, 0.1);
@@ -204,147 +136,123 @@ aside {
   margin-bottom: 0;
 }
 
-/* Site Button: */
-
-.site-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* nav links stacked */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.site-button textarea {
-  font-family: monospace;
+nav li a {
+  display: block;
+  padding: 5px 0;
+}
+
+footer {
+  margin-top: auto; /* shove it to the bottom */
   font-size: 0.7em;
 }
 
 /* -------------------------------------------------------- */
-/* FOOTER */
+/* THE TAMA FRAME */
 /* -------------------------------------------------------- */
 
-footer {
-  grid-area: footer;
-  border: var(--border);
-  border-radius: var(--round-borders);
-  overflow: hidden;
-  font-size: 0.75em;
-  padding: 15px;
-  background: var(--content-background-color);
-  display: flex;
-  justify-content: center;
+/* frame img is 1184x1080, screen hole is x 223-958, y 249-809 */
+.tama {
+  position: relative;
+  align-self: start;
+  justify-self: center;
+  aspect-ratio: 1184 / 1080;
+  width: min(100%, calc((100vh - 2 * var(--margin)) * 1184 / 1080));
 }
 
-footer a,
-footer a:visited {
+.tama-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* clicks go thru to the screen */
+}
+
+/* tucked a hair under the frame outline so no gaps */
+.tama-screen,
+.tama-menu {
+  position: absolute;
+  top: 22.6%;
+  bottom: 24.5%;
+  left: 18.5%;
+  right: 18.7%;
+}
+
+.tama-screen {
+  overflow-y: auto;
+  padding: 1em 1.2em;
+  background: var(--content-background-color);
+  scrollbar-width: thin;
+  scrollbar-color: var(--link-color) transparent;
+}
+
+/* popup menu, sits under the frame like the screen does */
+.tama-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--content-background-color);
+  font-family: var(--heading-font);
+  font-size: 1.2em;
+}
+
+.tama-menu[hidden] {
+  display: none;
+}
+
+.tama-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tama-menu a,
+.tama-menu a:visited {
+  display: block;
+  padding: 0.2em 0.5em 0.2em 1.4em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.tama-menu a.selected {
   color: var(--link-color);
 }
 
-footer a:hover,
-footer a:focus {
-  color: var(--link-color-hover);
+.tama-menu a.selected::before {
+  content: "▶";
+  position: absolute;
+  margin-left: -1.2em;
 }
 
-/* -------------------------------------------------------- */
-/* NAVIGATION */
-/* -------------------------------------------------------- */
-
-nav {
-  margin-bottom: 3em;
-}
-
-nav .sidebar-title {
-  margin-bottom: 0.5em;
-}
-
-nav ul {
-  margin: 0 -5px;
+/* invisible click zones over the hearts */
+.tama-btn {
+  position: absolute;
   padding: 0;
-  list-style: none;
-  user-select: none;
-}
-
-nav ul li {
-  margin-bottom: 0;
-}
-
-nav > ul li > a,
-nav > ul li > strong {
-  display: inline-block;
-}
-
-nav > ul li > a,
-nav > ul li > details summary,
-nav > ul li > strong {
-  padding: 5px 10px;
-}
-
-nav > ul li > a.active,
-nav > ul li > details.active summary {
-  font-weight: bold;
-}
-
-nav ul summary {
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
   cursor: pointer;
 }
 
-nav ul ul li > a {
-  padding-left: 30px;
+.tama-btn:hover,
+.tama-btn:focus-visible {
+  background: radial-gradient(rgba(243, 133, 236, 0.35), transparent 70%);
+  outline: none;
 }
 
-/* NAVIGATION IN HEADER */
-
-header nav {
-  margin-bottom: 0;
+.tama-btn:active {
+  background: radial-gradient(rgba(243, 133, 236, 0.6), transparent 70%);
 }
 
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-}
-
-header nav ul li {
-  position: relative;
-}
-
-header nav ul li:first-child > a {
-  padding-left: 0;
-}
-
-header nav ul li:last-child > a {
-  padding-right: 0;
-}
-
-/* Subnavigation (Drop-Down): */
-
-header nav ul ul {
-  background: var(--content-background-color);
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 10px;
-  padding: 0.5em;
-  z-index: 1;
-  border: var(--border);
-  min-width: 100%;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-}
-
-header nav ul li:hover ul,
-header nav ul li:focus-within ul {
-  display: block;
-}
-
-header nav ul li strong {
-  color: var(--link-color);
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-header nav ul ul li a {
-  display: block;
-  padding-left: 0;
-  padding-right: 0;
-}
+.tama-btn-a { left: 22.5%; top: 80.6%; width: 10.2%; height: 8.2%; }
+.tama-btn-b { left: 45.6%; top: 84.4%; width: 8.5%; height: 7.5%; }
+.tama-btn-c { left: 67.1%; top: 80.6%; width: 10.2%; height: 8.2%; }
 
 /* -------------------------------------------------------- */
 /* CONTENT */
@@ -365,10 +273,7 @@ main a:focus {
   text-decoration-style: wavy;
 }
 
-main p,
-main .image,
-main .full-width-image,
-main .two-columns {
+main p {
   margin: 0.75em 0;
 }
 
@@ -401,11 +306,6 @@ main pre {
 
 main code {
   text-transform: none;
-}
-
-main center {
-  margin: 1em 0;
-  padding: 0 1em;
 }
 
 main hr {
@@ -463,55 +363,48 @@ main h6 {
   font-size: 1em;
 }
 
-/* COLUMNS: */
+main img {
+  max-width: 100%; /* keep big pics inside the screen */
+  height: auto;
+}
 
-.two-columns {
+.blog {
+  font-size: 0.8em;
+}
+
+/* used by landing.md */
+.tamagotchi {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/tamagotchibg.png');
+  width: 1000px;
+  height: 1200px;
 }
 
-.two-columns > * {
-  flex: 1 1 0;
-  margin: 0;
+/* DETAILS (collapsible bits): */
+
+details {
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: #555;
 }
 
-.two-columns > *:first-child {
-  padding-right: 0.75em;
+details summary {
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.two-columns > *:last-child {
-  padding-left: 0.75em;
+details .small li {
+  font-size: 0.85em !important;
+  line-height: 1.4;
 }
 
-/* -------------------------------------------------------- */
-/* CONTENT IMAGES */
-/* -------------------------------------------------------- */
-
-.image {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-}
-
-.full-width-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.images {
-  display: flex;
-  width: calc(100% + 5px + 5px);
-  margin-left: -5px;
-  margin-right: -5px;
-}
-
-.images img {
-  width: 100%;
-  height: auto;
-  padding: 5px;
-  margin: 0;
-  overflow: hidden;
+details .small h4 {
+  font-size: 1em;
+  margin: 1em 0 0.3em;
 }
 
 /* -------------------------------------------------------- */
@@ -544,101 +437,45 @@ main h6 {
 /* MOBILE RESPONSIVE */
 /* -------------------------------------------------------- */
 
-/* CSS Code for devices < 800px */
+/* frame gets way too tiny on phones, so ditch it */
 @media (max-width: 800px) {
   body {
     font-size: 14px;
   }
 
   .layout {
-    width: 100%;
-    grid-template: "header" auto  "main" auto "footer" auto / 1fr;
-    /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
+    grid-template-columns: 1fr;
+    height: auto;
   }
 
-  .left-sidebar { 
-    display: none;
-  }
-  .right-sidebar { 
-    display: none;
+  .left-sidebar {
+    overflow: visible;
   }
 
-  aside {
-    border-bottom: 1px solid;
-    padding: 9px;
-    font-size: 0.9em;
-  }
-
-details {
-  border-left: 4px solid #ccc;
-  background: #f9f9f9;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  color: #555;
-}
-
-details summary {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-details .small li {
-  font-size: 0.85em !important;
-  line-height: 1.4;
-}
-
-details .small h4 {
-  font-size: 1em;
-  margin: 1em 0 0.3em;
-}
-  
-  nav {
-    padding: 0;
-  }
-
-  nav > ul {
-    padding-top: 0.5em;
-  }
-
-  nav > ul li > a,
-  nav > ul li > details summary,
-  nav > ul li > strong {
-    padding: 0.5em;
-  }
-
-  main {
-    max-height: none;
-    padding: 15px;
-  }
-
-  .images {
+  nav ul {
+    display: flex;
     flex-wrap: wrap;
+    gap: 0 1em;
   }
 
-  .images img {
+  .tama {
     width: 100%;
+    aspect-ratio: auto;
+  }
+
+  .tama-frame,
+  .tama-btn,
+  .tama-menu {
+    display: none;
+  }
+
+  .tama-screen {
+    position: static;
+    padding: 15px;
+    border-radius: var(--round-borders);
   }
 
   #skip-to-content-link {
     font-size: 1rem;
   }
-}
-
-
-.short-stack-regular {
-  font-family: "Short Stack", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.gorditas-regular {
-  font-family: "Gorditas", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.gorditas-bold {
-  font-family: "Gorditas", serif;
-  font-weight: 700;
-  font-style: normal;
 }

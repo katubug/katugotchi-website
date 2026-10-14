@@ -100,6 +100,10 @@ With that out of the way, on to the resources:
 
 ### Tamagotchi Knowledge <a name="tamagotchi-knowledge"><a>
 * [Tama Conservatory](https://tamaconservatory.blogspot.com/) - A compendium of virtual pet manuals, in multiple languages!
+* [Tamagotchi Wiki](https://tamagotchi.fandom.com/wiki/Main_Page) - A Fandom.com wiki about all things Tamagotchi.
+* [Tamagotchi Wikipedia Page](https://en.wikipedia.org/wiki/Tamagotchi) - What it says on the tin. Included for completeness.
+* [Tamagotchi Tech Specs Collection](https://tama.loociano.com/) - A page that lists all the various tech specs of each tamagotchi device. It includes teardowns and interior photos. Excellent resource for modders or tinkerers!
+* [TamaHacks](https://tamahacks.com/) {[Archive.org Mirrors](https://web.archive.org/web/*/https://tamahacks.com/*)} - MediaWiki hacking reference: Uni, Pix, Smart, On/Meets, P's, 4U, iDL, Connection firmware; English-patch and chip-flashing guides. However, frequently down and has a lot of weird SEO spam pages.  
 
 ### Tamagotchi Shops <a name="tamagotchi-shops"></a>
 
@@ -109,10 +113,11 @@ With that out of the way, on to the resources:
 
 ### General Fansites <a name="general-fansites"></a>
 
-<ul>
-<li><a href="http://www.ginjirotchi.ca/TamaMain.html" target="_blank">Ginjirotchi.ca</a> - </li>
+* [Gotchi Garden](https://gotchi-garden.blogspot.com/p/welcome.html) - Care sheets, growth, character and connection charts, secret codes, unlock guides for vintage through Paradise; large link hub to other sites, shops and YouTubers.
+* [Ginjirotchi.ca](http://www.ginjirotchi.ca/TamaMain.html) - Shrine-style vintage fan site built around per-device sections and very long-running care journals — [Tamagotchi Incarnations](http://www.ginjirotchi.ca/TamaMain.html) is the hub, with dedicated areas for [Devilgotchi](http://www.ginjirotchi.ca/devil/devilmain.html), [Mothra](http://www.ginjirotchi.ca/Mothra/mothindex.html), the [Ocean Shrine](http://www.ginjirotchi.ca/Ocean/ocshrine.html) and the [20th Anniversary](http://www.ginjirotchi.ca/20thAnni/main.html) release, plus [photo galleries](http://ginjirotchi.ca/TamaPhotos.html)!
+* [David's Crossing](https://davidscrossing.com/tamagotchi_index.php) - Vintage Tamagotchi logs and history, per-device: opinions, collection notes with purchase dates and prices, and dated run logs.
+* [Tamagotchi Crossing](https://tamagotchicrossing.com/) - A fansite focused on vintage tamas, with history/logs, reviews, collection info, and more!
 
-</ul>
 
 ### YouTube Resources <a name="youtube-resources"></a>
 
