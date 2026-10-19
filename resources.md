@@ -9,6 +9,7 @@ This page will contain links to other tamagotchi tutorials or important content,
 - [Tamagotchi Emulation Resources](#tamagotchi-emulation-resources)
 - [Hacking the Tamagotchi Paradise](#hacking-the-tamagotchi-paradise)
 - [Websites that Interact with Devices](#websites-that-interact-with-devices)
+- [Tamagotchi Repair ETC](#tamagotchi-repair-etc)
 - [Tamagotchi Knowledge](#tamagotchi-knowledge)
 - [Tamagotchi Shops](#tamagotchi-shops)
 - [General Fansites](#general-fansites)
@@ -97,6 +98,16 @@ With that out of the way, on to the resources:
 <li>Your requested items, currency, or skill points will instantly appear in your inventory or stats</li></ol>
   </div>
 </details></li></ul>
+
+### Tamagotchi Repair ETC <a name="tamagotchi-repair-etc"></a>
+* USA
+  * [Mikablu](https://ko-fi.com/mikablu)
+  * [Tama Tinkerer](https://tamatinkerer.neocities.org/)
+* UK
+  * [Marcel's Tama Spa](https://ko-fi.com/tamaspa)
+  * ([Why not Tamagotchi Center?](https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/))
+* Asia
+  * [TamagotchiVN](https://www.instagram.com/tamagotchi.vn)
 
 ### Tamagotchi Knowledge <a name="tamagotchi-knowledge"><a>
 * [Tama Conservatory](https://tamaconservatory.blogspot.com/) - A compendium of virtual pet manuals, in multiple languages!
