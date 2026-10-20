@@ -23,11 +23,13 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
     
 * [TamaWeb](https://samandev.itch.io/tamaweb) - play a tamagotchi-inspired fangame in your browser, on your PC, or your Android!
 * [TamaEmu for Web](https://maragotchi.github.io/tamaemu-web/) - runs the P's, iDL/E, 4U, 4U+, and Plus Color ROMs.
-* <a href="https://github.com/mameise/TamaEmu_Android/releases">TamaEmu for Android</a> - Same program as above, adapted to run on an Android device.
-* <a href="https://github.com/mameise/T18Emu">T18Emu</a> - An Android emulator for Tamagotchi On and Meets.
-* [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On AND Meets.
+* [TamaEmu for Android](https://github.com/mameise/TamaEmu_Android/releases) - Same program as above, adapted to run on an Android device.
+* [T18Emu](https://github.com/mameise/T18Emu) - An Android emulator for Tamagotchi On and Meets.
+* [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On and Meets.
 
-Now, you're probably wondering, where do you get ROMs, anyway? And you can't ask *anywhere*, it seems. Well, hopefully I am not breaking the internet by saying that <a href="https://archive.org/search?tab=all&query=tamagotchi&and%5B%5D=mediatype%3A%22software%22">you can find them on the internet archive</a>. Please use this information responsibly.
+Now, you're probably wondering, **where do you get ROMs, anyway**? Well, in the interest of ethics, I will tell you that the only *legal* way to acquire Tamagotchi firmware is to dump the ROM yourself. However, this requires significant electronics knowledge, and in many cases will ruin the device, and also isn't guaranteed to work. It's not an easy undertaking.
+
+However, in the interest of software preservation, I will tell you that there is an **ARCHIVE ORG**anization which is dedicated to uploading copies of old software, that they may be enjoyed for years to come. Wink wink.
 
 ### Hacking the Tamagotchi Paradise  <a name="hacking-the-tamagotchi-paradise"></a>
 
