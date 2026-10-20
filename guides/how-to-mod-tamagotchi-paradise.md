@@ -9,15 +9,19 @@ layout: layout.html
     - [The Tamagotchi Paradise](#the-tamagotchi-paradise)
     - [The UART Cable](#uart-cable)
 - [Paramix Studio Instructions](#paramix-studio-instructions)
-    - [Connect](#connect)
-    - [Read ROM and Backup](#read-rom-backup)
-    - [Configure Your Device](#configure-your-device)
-    - [Save and Write your Custom ROM](#save-write-custom-rom)
-    - [Using the Paramix Menu](#using-paramix-menu)
-        - [Fields](#menu-fields)
-        - [Items](#menu-items)
-        - [Points](#menu-points)
+    - [UI Guide](#paramix-ui-guide)
+    - [Paramix Tutorial](#paramix-tutorial)
+        - [Connect](#connect)
+        - [Read ROM and Backup](#read-rom-backup)
+        - [Configure Your Device](#configure-your-device)
+        - [Save and Write your Custom ROM](#save-write-custom-rom)
+        - [Using the Paramix Menu](#using-paramix-menu)
+           - [Fields](#menu-fields)
+           - [Items](#menu-items)
+           - [Points](#menu-points)
 - [TamaHome App Instructions](#tamahome-app-instructions)
+    - [UI Guide]()
+    - [TamaHome Tutorial]()
 
 ### FAQ <a name="faq"></a>
 Q: Why would you want to mod your Tama Paradise?
@@ -44,9 +48,11 @@ A: As with all modding, there is a risk that you can lose save data or even bric
 
 <img src="/guides/mod-paradise/mpi-01.jpg" width="50%">
 
-I will be using my Jade Forest, but I actually don't recommend this unless it's your only device. This is because the **Jade Forest does not have much room on the chip**, and **Glacier and Tropics have the same issue**. If you want to emulate other tamagotchis or other games, you'll need a **Wave 1 Device**.
+If you have a Jade Forest, White Glacier, or Orange Tropics, you will first need to **replace the ROM** with Pink Land, Blue Ocean, or Purple Sky firmware. After that's written, **then you can add emulation for other tamas**.
 
-However, on the later waves, you can still **unlock the other fields** and **add custom characters** etc.
+This is because the Jade, Glacier, and Tropics all have bigger default firmware, which doesn't allow room for emulation. If you have a wave 1 (so land/sky/sea), you do not need to do this extra step.
+
+If you only want other mods such as unlocking fields or adding cheats, then you also do not need to do the extra step.
 
 ## The UART Cable <a name="uart-cable"></a>
 It so happens that I have one of each type of UART cord. The original, handmade version:
@@ -71,12 +77,52 @@ It should look like this, where the little tab on the left goes into the left sl
 
 ## Paramix Studio Instructions <a name="paramix-studio-instructions"></a>
 
-Firstly we'll cover using **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise.
+Firstly we'll cover how to use **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise.
 
 Here are some screenshots to reference:
 <img src="/guides/mod-paradise/choose.png" width="80%">
 
-### 1: Connect <a name="connect"></a>
+### UI Guide <a name="paramix-ui-guide"></a>
+
+Here's what the UI will look like when you have a Jade Forest device connected and a Water Paradise ROM loaded (You can see it's currently writing the Water ROM to the device):
+
+<img src="/guides/mod-paradise/uiguide.png">
+
+##### Top Menu:
+- **"Help"**: A guide to using the tool. Pressing this button toggles the tutorial.
+- **"Device"**: Opens the "Device over UART" screen you see in the shot. Pressing this button toggles the window. Toggling this window will not interrupt reads or writes in progress.
+- **"Open ROM"**: Allows you to load into the app a ROM file that you have saved on your computer.
+- **"Save New ROM"**: Allows you to save an edited ROM file to your computer for later use.
+
+##### Main/UART Menu:
+- **"Connect"**: Choose this to connect your tama. Beside it, once your tama is connected, it will tell you what device is connected.
+- **"Read ROM"**: This will read the ROM that is currently installed on the device, and will allow you to download a copy of it. If this is your first time, it will be a plain vanilla ROM (which you should keep in case you want to revert changes). If you've previously edited the ROM, the app will show what changes have been made.
+- **"Write new ROM to the device"** - You must read or load a ROM to access this option. It has two suboptions:
+    - **"Only Write Changes"**: When ticked, this will tell the app to only write the differences between the device's existing ROM and the one loaded into Paramix. If you're only unlocking fields or menus, leave this checked and it'll save you a lot of time. Untick this to completely overwrite the native ROM with the new one.
+    - **"Keep Saves"**: If you're loading a ROM that is compatible with your existing save, leave this box ticked to ensure that your saves remain on the device. If you are changing the firmware entirely, then you need to untick this box.
+- **"Back Up Save"**: This will backup your progress on the device. All the tamas you have raised, levels you have earned, and items you have obtained are contained in your save.
+- **Save to Device**: This option lets you restore a save file from your PC onto your device. It overwrites the data on the device, so make sure you have a backup if needed!
+
+##### "Your New ROM"
+- A section showing you what customizations you have selected, and how much room it will use on the device.
+
+##### Bottom Menu
+- **"Characters"**: still investigating
+- **"All Sprites"**: still investigating
+- **"Names"**: still investigating
+- **"Card"**: still investigating
+- **"Emulator"**: Allows you to load in a ROM/Firmware for another type of tamagotchi to emulate on the device. Supports almost all tamagotchi types.
+- **"DOOM"**: Allows you to play DOOM on your Tamagotchi Paradise. Because of course.
+- **"Menu"**: Lets you add the Paramix cheat Menu to your device. It has some suboptions:
+    - **"Start Device for Programs Only"**: If you don't want the Paradise firmware, this option will only keep what's necessary to run emulations.
+    - **"Several Saves (with field choice)"**: Allows you to have multiple saves on the same device, each in a different Field. Still investigating whether time passes for other fields or only the active one.
+    - **"Items and Tamapoints"**: still investigating
+    - **"Change Tama (level, care, character)"**: still investigating
+- **"Save"**: Allows you to save and load game saves. If you want to back up your emulated tamas, you can read the ROM and do that here.
+
+## Tutorial <a name="paramix-tutorial"></a>
+
+### Step 1: Connect <a name="connect"></a>
 
 Once on the page, begin by **connecting your Tama**. Click "Device" in the top menu bar.
 
@@ -98,7 +144,7 @@ It will give you a copy of the device's firmware to download, and it will also a
 
 ### Configure Your Device <a name="configure-your-device"></a>
 
-From there, depending on your device, you can configure what changes you want to make to the ROM.
+From there, depending on your device, you can configure what changes you want to make to the ROM. Please note that if you want to run emulation of other tamas on your Jade Forest, White Glacier, or Orange Tropics, you need to first *replace the firmware with that of a wave 1 device*. That means getting the Firmware, loading it via "Open ROM," and skipping to the next step to write it to the device.
 
 **All Devices**
 - Change Characters to custom sprites
