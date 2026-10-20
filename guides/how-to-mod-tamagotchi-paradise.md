@@ -14,6 +14,9 @@ layout: layout.html
     - [Configure Your Device](#configure-your-device)
     - [Save and Write your Custom ROM](#save-write-custom-rom)
     - [Using the Paramix Menu](#using-paramix-menu)
+        - [Fields](#menu-fields)
+        - [Items](#menu-items)
+        - [Points](#menu-points)
 - [TamaHome App Instructions](#tamahome-app-instructions)
 
 ### FAQ <a name="faq"></a>
@@ -137,15 +140,15 @@ That will bring up this menu:
 
 <img src="/guides/mod-paradise/mpi-13.jpg" width="50%">
 
-#### Fields
+#### Fields <a name="menu-fields"></a>
 The top option will let you choose which field to play. You can choose from any of the fields your device comes with, or that you've chosen to install. I do not know if the fields you're not playing will progress timewise, but my assumption is no.
 
-#### Items
+#### Items <a name="menu-items"></a>
 In this menu, you can choose items to be added to your game. You select the item, and then you can edit the count to be added. This seems to work well with Outdoor Toys, but it doesn't work well with food, it seems. Additionally, there seems to be no way to remove an item from your bag, once you've selected it. Perhaps this is user error on my part. If you know better, please [DM me on Reddit](https://www.reddit.com/user/katubug/)!
 
 <img src="/guides/mod-paradise/mpi-15.jpg" width="80%">
 
-#### Points
+#### Points <a name="menu-points"></a>
 This shows your current gotchi points, and allows you to edit the number to whatever you'd like. Saving this value is reflected immediately ingame.
 
 ## TamaHome App Instructions <a name="tamahome-app-instructions"></a>
