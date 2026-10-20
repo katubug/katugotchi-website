@@ -12,6 +12,13 @@
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://underkat.neocities.org/onionring.css">
 
+    <!-- runs before paint so the frame doesn't flash -->
+    <script>
+      try {
+        if (localStorage.getItem("frameless") === "1") document.documentElement.classList.add("frameless");
+      } catch (e) {}
+    </script>
+
     <script>
       // Template generated with petrapixel's layout generator.
       // (Please do not remove this credit.)
@@ -37,6 +44,10 @@
             <li><a href="/youtube/">youtube resources</a></li>
           </ul>
         </nav>
+
+        <div class="sidebar-section frame-toggle-section">
+          <button type="button" class="frame-toggle" aria-pressed="false">hide tama frame</button>
+        </div>
 
         <div class="sidebar-section">
           <div class="sidebar-title">Other Links</div>
@@ -111,6 +122,24 @@
 
       // hovering a menu item moves the arrow too
       items.forEach((a, i) => a.addEventListener("mouseenter", () => { sel = i; highlight(); }));
+
+      // frame on/off, remembered across pages
+      const frameToggle = document.querySelector(".frame-toggle");
+
+      function syncToggle() {
+        const off = document.documentElement.classList.contains("frameless");
+        frameToggle.textContent = off ? "show tama frame" : "hide tama frame";
+        frameToggle.setAttribute("aria-pressed", off);
+      }
+
+      frameToggle.onclick = () => {
+        const off = document.documentElement.classList.toggle("frameless");
+        menu.hidden = true;
+        try { localStorage.setItem("frameless", off ? "1" : "0"); } catch (e) {}
+        syncToggle();
+      };
+
+      syncToggle();
     </script>
   </body>
 </html>

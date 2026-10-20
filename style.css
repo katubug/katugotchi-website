@@ -256,6 +256,41 @@ footer {
 .tama-btn-b { left: 39.2%; top: 85.2%; width: 12.3%; height: 12%; }
 .tama-btn-c { left: 61.5%; top: 82.4%; width: 10%; height: 11.1%; }
 
+/* frame toggle button in the sidebar */
+.frame-toggle {
+  font: inherit;
+  color: var(--link-color);
+  background: var(--content-background-color);
+  border: 2px solid var(--sidebar-outline-color);
+  border-radius: var(--round-borders);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.frame-toggle:hover,
+.frame-toggle:focus-visible {
+  color: var(--link-color-hover);
+}
+
+/* frameless mode: screen fills the whole column */
+.frameless .tama {
+  width: 100%;
+  aspect-ratio: auto;
+  align-self: stretch;
+}
+
+.frameless .tama-frame,
+.frameless .tama-btn,
+.frameless .tama-menu {
+  display: none;
+}
+
+.frameless .tama-screen {
+  inset: 0;
+  padding: var(--padding);
+  border-radius: var(--round-borders);
+}
+
 /* -------------------------------------------------------- */
 /* CONTENT */
 /* -------------------------------------------------------- */
@@ -467,7 +502,8 @@ details .small h4 {
 
   .tama-frame,
   .tama-btn,
-  .tama-menu {
+  .tama-menu,
+  .frame-toggle-section {
     display: none;
   }
 
