@@ -10,7 +10,7 @@ layout: layout.html
     - [The UART Cable](#uart-cable)
 - [Paramix Studio Instructions](#paramix-studio-instructions)
     - [UI Guide](#paramix-ui-guide)
-    - [Paramix Tutorial](#paramix-tutorial)
+    - [General Paramix Tutorial](#paramix-tutorial)
         - [Connect](#connect)
         - [Read ROM and Backup](#read-rom-backup)
         - [Configure Your Device](#configure-your-device)
@@ -19,6 +19,8 @@ layout: layout.html
            - [Fields](#menu-fields)
            - [Items](#menu-items)
            - [Points](#menu-points)
+    - [How to Emulate Older Tamagotchis on the Paradise](#how-to-emulate)
+    - [How to Restore to Tamagotchi Paradise](#how-to-restore)
 - [TamaHome App Instructions](#tamahome-app-instructions)
     - [UI Guide]()
     - [TamaHome Tutorial]()
@@ -39,8 +41,6 @@ A: As with all modding, there is a risk that you can lose save data or even bric
 ### Needed for this Guide <a name="needed-for-guide"></a>
 - A Tamagotchi Paradise, ideally Wave 1 (Pink Land, Blue Ocean, Purple Sky)
 - A UART cord ("[What's a UART](/resources/#hacking-the-tamagotchi-paradise)?")
-    - [Buy catalystwyrm's original UART connector](https://ko-fi.com/s/86de04ff8a)
-    - [Buy a UART connector from AliExpress](https://www.aliexpress.us/w/wholesale-uart-tamagotchi.html)
 - A PC with USB ports and either Google Chrome or Microsoft Edge.
 - Either the TamaHome app ($7) or Paramix Studio (free). This guide will cover both.
 
@@ -63,6 +63,9 @@ And one from AliExpress:
 
 <img src="/guides/mod-paradise/mpi-04.jpg" width="80%">
 
+- [Buy catalystwyrm's original UART connector](https://ko-fi.com/s/86de04ff8a)
+- [Buy a UART connector from AliExpress](https://www.aliexpress.us/w/wholesale-uart-tamagotchi.html)
+
 Both will work the same! Obviously it's better to support the community than AliExpress, but as catalystwyrm is frequently sold out, I wouldn't stress it.
 
 So your cable will have 2 ends. The USB end for your PC, and the weirdo end (that's a technical term) for your Paradise.
@@ -79,8 +82,7 @@ It should look like this, where the little tab on the left goes into the left sl
 
 Firstly we'll cover how to use **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise.
 
-Here are some screenshots to reference:
-<img src="/guides/mod-paradise/choose.png" width="80%">
+You can follow the link above, however, "instead of going to the link you should go to [https://github.com/mameise/Paramix-Studio/releases](https://github.com/mameise/Paramix-Studio/releases) and download the latest release. Once the HTML file is downloaded, you can open it and it will open in your browser. This way is to ensure that you are always using the latest version of Paramix." - Credit to [fuzzynchic_rachel on instagram](https://www.instagram.com/p/DenSU5ak4BW/) for this.
 
 ### UI Guide <a name="paramix-ui-guide"></a>
 
@@ -196,6 +198,40 @@ In this menu, you can choose items to be added to your game. You select the item
 
 #### Points <a name="menu-points"></a>
 This shows your current gotchi points, and allows you to edit the number to whatever you'd like. Saving this value is reflected immediately ingame.
+
+## How to Emulate other Tamagotchis on the Paradise <a name="how-to-emulate"></a>
+
+<img src="/guides/mod-paradise/step1.png">
+<img src="/guides/mod-paradise/step2.png">
+<img src="/guides/mod-paradise/step2a.png">
+<img src="/guides/mod-paradise/step3.png">
+<img src="/guides/mod-paradise/step4.png">
+<img src="/guides/mod-paradise/step4a.png">
+<img src="/guides/mod-paradise/step5.png">
+<img src="/guides/mod-paradise/step5a.png">
+<img src="/guides/mod-paradise/step6.png">
+<img src="/guides/mod-paradise/step7.png">
+<img src="/guides/mod-paradise/step8.png">
+<img src="/guides/mod-paradise/step9.png">
+
+## How to restore from emulation to Tamagotchi Paradise <a name="how-to-restore"></a>
+
+If you eventually decide you'd like to go back to your original firmware, here's how to do it.
+
+1. Connect your UART Cable and bring up Paramix Studio (the order of this step doesn't matter).
+2. Restart your tama. You can do this by pressing and holding the lab/wheel button and then hitting A. 
+    - Pressing the reset button will not work (it will bring you to the continue/reset screen, but resetting from there will only restart your emulation, not the Paradise).
+3. On the tama, name your planet and wait for your egg to hatch.
+    - No menus will be available during the egg phase.
+4. Then, navigate to the planet menu and select "Connection" > "Download" > "Download".
+5. In Paramix, "Connect" to the tama.
+6. From the top menu, choose "Open ROM" and select your Tamagotchi Paradise firmware (you downloaded it, right?).
+7. Choose "Save to Device" and load in the progress file that you saved earlier.
+8. Make sure "Only Write Changes" is unticked, and "Keep Saves" is checked.
+9. Choose "Write new ROM to the device."
+10. Wait for it to finish loading (a long long time).
+11. Reset your tamagotchi via the reset button on the back.
+12. Ta da! You're back!
 
 ## TamaHome App Instructions <a name="tamahome-app-instructions"></a>
 
