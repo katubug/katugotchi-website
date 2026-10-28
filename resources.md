@@ -48,7 +48,7 @@ With that out of the way, on to the resources:
 <li><a href="https://ko-fi.com/s/1843fe1f03" target="_blank">TamaHome App</a> - Designed to make custom items, ghosts, and playdates simple without relying on proprietary hardware or online services.</li>
 <li><a href="https://ko-fi.com/s/0cba4105ef" target="_blank">TamaSprite App</a> - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.</li>
 <li><a href="https://ko-fi.com/s/d48fe485c7" target="_blank">Paradise Sprite Browser</a> - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."</li>
-<li><a href="https://discord.com/invite/CdSFTpWHk" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
+<li><a href="https://discord.gg/P58pHU7CN" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
 </ul>
 
 <li><a href="https://tools.bbamorachi.us/" target="_blank">bbamoratchi tools</a> - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.</li>
