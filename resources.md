@@ -11,8 +11,8 @@ This page will contain links to other tamagotchi tutorials or important content,
 - [Websites that Interact with Devices](#websites-that-interact-with-devices)
 - [Tamagotchi Repair ETC](#tamagotchi-repair-etc)
 - [Tamagotchi Knowledge](#tamagotchi-knowledge)
-- [Tamagotchi Shops](#tamagotchi-shops)
-- [General Fansites](#general-fansites)
+- [Tamagotchi Shops/Free Downloads](#tamagotchi-shops)
+- [Guides and General Fansites](#general-fansites)
 - [YouTube Resources](#youtube-resources)
 
 First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combines Jade Forest, White Glacier, and Tropical growth charts into one image:
@@ -26,7 +26,9 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 * [TamaEmu for Android](https://github.com/mameise/TamaEmu_Android/releases) - Same program as above, adapted to run on an Android device.
 * [T18Emu](https://github.com/mameise/T18Emu) - An Android emulator for Tamagotchi On and Meets.
 * [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On and Meets.
+* [Tamagotchi P2 for Android](https://github.com/LyesDemri/TamagotchiP2Android) - an Android emulator with recreations of vintage tamas (currently P2 and Santaclautchi). Behavior may differ from the originals, as they are coded from scratch, not emulated firmware. Does not require a ROM.
 
+#### Where do you get ROMs/Firmware?
 Now, you're probably wondering, **where do you get ROMs, anyway**? Well, in the interest of ethics, I will tell you that the only *legal* way to acquire Tamagotchi firmware is to dump the ROM yourself. However, this requires significant electronics knowledge, and in many cases will ruin the device, and also isn't guaranteed to work. It's not an easy undertaking.
 
 However, in the interest of software preservation, I will tell you that there is an **ARCHIVE ORG**anization which is dedicated to uploading copies of old software, that they may be enjoyed for years to come. Wink wink.
@@ -116,20 +118,29 @@ With that out of the way, on to the resources:
 * [Tamagotchi Wiki](https://tamagotchi.fandom.com/wiki/Main_Page) - A Fandom.com wiki about all things Tamagotchi.
 * [Tamagotchi Wikipedia Page](https://en.wikipedia.org/wiki/Tamagotchi) - What it says on the tin. Included for completeness.
 * [Tamagotchi Tech Specs Collection](https://tama.loociano.com/) - A page that lists all the various tech specs of each tamagotchi device. It includes teardowns and interior photos. Excellent resource for modders or tinkerers!
-* [TamaHacks](https://tamahacks.com/) {[Archive.org Mirrors](https://web.archive.org/web/*/https://tamahacks.com/*)} - MediaWiki hacking reference: Uni, Pix, Smart, On/Meets, P's, 4U, iDL, Connection firmware; English-patch and chip-flashing guides. However, frequently down and has a lot of weird SEO spam pages.  
+* [TamaHacks](https://tamahacks.com/) {[Archive.org Mirrors](https://web.archive.org/web/*/https://tamahacks.com/*)} - MediaWiki hacking reference: Uni, Pix, Smart, On/Meets, P's, 4U, iDL, Connection firmware; English-patch and chip-flashing guides. However, frequently down and has a lot of weird SEO spam pages.
+* [Tamagotchi Decapped Series: Yasashii Character Guide](https://www.reddit.com/r/tamagotchi/comments/1xelsmk/yasashii_character_guide_tamagotchi_decapped/) - A guide to raising characters on the Yasashii device, informed by the decompiled firmware! By Mikablu aka debutchi.
 
 ### Tamagotchi Shops <a name="tamagotchi-shops"></a>
 
-<ul>
-<li><a href="https://ko-fi.com/electronicdays/shop" target="_blank">Electronic Days</a> - custom shells and accessories</li>
-</ul>
+I know it's a little silly to put shops and free downloads in the same section, but some places offer both, so each link will be marked.
 
-### General Fansites <a name="general-fansites"></a>
+- **Paid** [Electronic Days](https://ko-fi.com/electronicdays/shop) - custom shells and accessories for various tama models.
+- **Free** [Green Magic On Faceplate for Tamagotchi Paradise](https://www.reddit.com/r/TamagotchiParadise/comments/1xg53tz/paradise_to_meets_shellfaceplate/)
+- **Free** [Hayhaybean's Ko-Fi](https://ko-fi.com/hayhaybeans/shop) - Custom ingame items that you can add to your Tama Paradise! Many Pokemon themed.
+- **Paid** [Sozai's Ko-Fi](https://ko-fi.com/sozai0001/shop) - Custom ingame items for Tamagotchi Meets/On, and Paradise, including items from other Tamagotchi games and Chiikawa.
+- **Paid** [Tamagotchi.vn's Ko-Fi](https://ko-fi.com/aiden39/shop) - Custom ingame items for Tamagotchi Meets/On, 4U, Paradise, Smart etc.
+- **Free** [MandaGodofWar's Halloween Items](https://drive.google.com/drive/folders/1ulsl7JwNGuV-dqQ4k4lDoslYJ4FFZ5qx) - Custom ingame items for the Tamagotchi Paradise, Halloween-themed! [View the reddit post with previews here](https://www.reddit.com/r/TamagotchiParadise/comments/1xdwkgt/more_customized_halloween_items/).
+
+
+### Guides and General Fansites <a name="general-fansites"></a>
 
 * [Gotchi Garden](https://gotchi-garden.blogspot.com/p/welcome.html) - Care sheets, growth, character and connection charts, secret codes, unlock guides for vintage through Paradise; large link hub to other sites, shops and YouTubers.
 * [Ginjirotchi.ca](http://www.ginjirotchi.ca/TamaMain.html) - Shrine-style vintage fan site built around per-device sections and very long-running care journals — [Tamagotchi Incarnations](http://www.ginjirotchi.ca/TamaMain.html) is the hub, with dedicated areas for [Devilgotchi](http://www.ginjirotchi.ca/devil/devilmain.html), [Mothra](http://www.ginjirotchi.ca/Mothra/mothindex.html), the [Ocean Shrine](http://www.ginjirotchi.ca/Ocean/ocshrine.html) and the [20th Anniversary](http://www.ginjirotchi.ca/20thAnni/main.html) release, plus [photo galleries](http://ginjirotchi.ca/TamaPhotos.html)!
 * [David's Crossing](https://davidscrossing.com/tamagotchi_index.php) - Vintage Tamagotchi logs and history, per-device: opinions, collection notes with purchase dates and prices, and dated run logs.
 * [Tamagotchi Crossing](https://tamagotchicrossing.com/) - A fansite focused on vintage tamas, with history/logs, reviews, collection info, and more!
+* [Disposablepie's Neocities](https://disposablepie.neocities.org/) - A collection of guides and trackers by the very cool and excellent disposablepie!
+
 
 
 ### YouTube Resources <a name="youtube-resources"></a>
