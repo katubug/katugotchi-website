@@ -74,7 +74,7 @@ More tools: [Other Resources](#other-resources)
 
 ### The Tamagotchi Paradise <a name="the-tamagotchi-paradise"></a>
 
-<img src="/guides/mod-paradise/mpi-01.jpg" width="50%">
+<img src="/guides/mod-paradise/mpi-01.jpg" width="70%">
 
 If you have a Jade Forest, White Glacier, or Orange Tropics, you will first need to **replace the ROM** with Pink Land, Blue Ocean, or Purple Sky firmware. After that's written, **then you can add emulation for other tamas**.
 
@@ -156,22 +156,22 @@ Here's what the UI will look like when you have a Jade Forest device connected a
 
 So your cable will have 2 ends. The USB end for your PC, and the weirdo end (that's a technical term) for your Paradise.
 
-<img src="/guides/mod-paradise/mpi-05.jpg" width="50%">
+<img src="/guides/mod-paradise/mpi-05.jpg" width="70%">
 
 The weirdo end is a series of interlocking arms (henceforth referred to as "grabby bits") and bars for the grabby bits to, well, grab. Make sure the grabby bits on the weird end match the bar on the Paradise, and vice versa. Once you have them lined up, press them together.
 
-<img src="/guides/mod-paradise/mpi-07.jpg" width="50%">
+<img src="/guides/mod-paradise/mpi-07.jpg" width="70%">
 
 It should look like this, where the little tab on the left goes into the left slot, and the same on the right side. Like a little yin-yang. Now hook the USB up to your PC and let's move on.
 
 Once on the page, begin by **connecting your Tama**. Click "Device" in the top menu bar.
 
-<img src="/guides/mod-paradise/step1.png" width="50%">
+<img src="/guides/mod-paradise/step1.png" width="70%">
 
 #### Step 2: Connect Your Device <a name="connect-device"></a>
 
-<img src="/guides/mod-paradise/step2.png" width="50%">
-<img src="/guides/mod-paradise/step2a.png" width="50%">
+<img src="/guides/mod-paradise/step2.png" width="70%">
+<img src="/guides/mod-paradise/step2a.png" width="70%">
 
 First, connect from the Tama's end: choose "Connection" from the Planet level menu, and then Download, then Download.
 
@@ -183,18 +183,18 @@ Once your device is connected, you'll need to Read the ROM. This means the app w
 
 It will give you a copy of the device's firmware to download, and it will also allow you to **backup your save data** locally. Be sure to back this up and keep it safe on your pc so you can restore from it later if something goes wrong and data gets corrupted. I mean, unless you bought a brand new device just for this, or you don't care about losing your save data. Then, do what you want, I'm not your mom.
 
-<img src="/guides/mod-paradise/mpi-11.jpg" width="50%">
-<img src="/guides/mod-paradise/step3.png" width="50%">
+<img src="/guides/mod-paradise/mpi-11.jpg" width="70%">
+<img src="/guides/mod-paradise/step3.png" width="70%">
 
 #### Step 4 (Optional): Replace ROM <a name="replace-rom"></a>
 
 If you have a Jade, Glacier, or Tropics Paradise, you'll need to first switch the ROM to Land/Sky/Water. If you have a wave 1 device, [skip to the next step](#configure-your-device).
 
-<img src="/guides/mod-paradise/step4.png" width="50%">
+<img src="/guides/mod-paradise/step4.png" width="70%">
 
 Open the ROM for Land, Sky, or Water, and then choose to write new ROM to device. Wait a long time for it to write, then when it's done, restart your device and [begin the tutorial again from Step 1](#connect).
 
-<img src="/guides/mod-paradise/step4a.png" width="50%">
+<img src="/guides/mod-paradise/step4a.png" width="70%">
 
 #### Step 5: Configure Your Device <a name="configure-your-device"></a>
 
@@ -220,11 +220,11 @@ From there, depending on your device, you can configure what changes you want to
 
 Choose the ROM for the Tamagotchi version you want to emulate.
 
-<img src="/guides/mod-paradise/step5.png" width="50%">
+<img src="/guides/mod-paradise/step5.png" width="70%">
 
 Some emulators will let you add custom content at this stage by clicking the little arrow beside the firmware name. Examples include the IDL, 4U, PS, and Tamago.
 
-<img src="/guides/mod-paradise/step5a.png" width="50%">
+<img src="/guides/mod-paradise/step5a.png" width="70%">
 
 #### Step 6: Save Your Custom ROM <a name="save-write-custom-rom"></a>
 
@@ -232,23 +232,23 @@ The "Your new ROM" section will tell you what you've chosen to add to the device
 
 Once you've got things the way you want them, choose the "Save new ROM" button in the upper menu bar and save the file to your PC. You'll want it later in case you decide to make edits to it (which, btw, you can do without your Tama being plugged in).
 
-<img src="/guides/mod-paradise/step6.png" width="50%">
+<img src="/guides/mod-paradise/step6.png" width="70%">
 
 #### Step 7: Write to Device <a name="write-rom"></a>
 
 Then, you can write your ROM to your device. Again, this will take *ages* but you need to be patient and **do not under any circumstances disconnect or interrupt the connection**. A partially applied ROM will potentially brick your device and you'll need to have it re-flashed by a professional. ([Where can I get my tamagotchi repaired?](/resources/#tamagotchi-repair-etc))
 
-<img src="/guides/mod-paradise/step7.png" width="50%">
+<img src="/guides/mod-paradise/step7.png" width="70%">
 
 #### Step 8: Restart Your Device <a name="restart-device"></a>
 
 Once it has finished transferring, you can safely unplug the device. You do not need to disconnect it via the software, simply **hit the reset button** to exit the menu on the device and then safely unplug it from your PC. There are no special steps you need to take when unplugging as long as no transfer is occurring.
 
-<img src="/guides/mod-paradise/step8.png" width="50%">
+<img src="/guides/mod-paradise/step8.png" width="70%">
 
 You're done! Press the wheel button in to return to the Paradise in case you want to make changes to your device.
 
-<img src="/guides/mod-paradise/step9.png" width="50%">
+<img src="/guides/mod-paradise/step9.png" width="70%">
 
 ### Using the Paramix Menu <a name="using-paramix-menu"></a>
 
@@ -260,7 +260,7 @@ First up, if you chose to add the Paramix "Menu", here is a video showing how to
 
 That will bring up this menu:
 
-<img src="/guides/mod-paradise/mpi-13.jpg" width="50%">
+<img src="/guides/mod-paradise/mpi-13.jpg" width="70%">
 
 #### Fields <a name="menu-fields"></a>
 The top option will let you choose which field to play. You can choose from any of the fields your device comes with, or that you've chosen to install. I do not know if the fields you're not playing will progress timewise, but my assumption is no.
