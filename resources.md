@@ -28,6 +28,7 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 * [TamaEmu for Android](https://github.com/mameise/TamaEmu_Android/releases) - Same program as above, adapted to run on an Android device.
 * [T18Emu](https://github.com/mameise/T18Emu) - An Android emulator for Tamagotchi On and Meets.
 * [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On and Meets.
+* [How to Mod a Tamagotchi Paradise](/guides/how-to-mod-tamagotchi-paradise/)
 * [Tamagotchi P2 for Android](https://github.com/LyesDemri/TamagotchiP2Android) - an Android emulator with recreations of vintage tamas (currently P2 and Santaclautchi). Behavior may differ from the originals, as they are coded from scratch, not emulated firmware. Does not require a ROM.
 
 #### Where do you get ROMs/Firmware?

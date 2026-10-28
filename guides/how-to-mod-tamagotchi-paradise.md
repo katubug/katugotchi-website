@@ -5,28 +5,30 @@ layout: layout.html
 
 ## Table of Contents
 - [FAQ](#faq)
-- [Hacking The Tamagotchi Paradise Overview](#hacking-the-tamagotchi-paradise)
 - [Needed for This Guide](#needed-for-guide)
     - [The Tamagotchi Paradise](#the-tamagotchi-paradise)
     - [The UART Cable](#uart-cable)
 - [Paramix Studio Instructions](#paramix-studio-instructions)
     - [UI Guide](#paramix-ui-guide)
-    - [General Paramix Tutorial](#paramix-tutorial)
-        - [Connect](#connect)
-        - [Read ROM and Backup](#read-rom-backup)
-        - [Configure Your Device](#configure-your-device)
-        - [Save and Write your Custom ROM](#save-write-custom-rom)
-        - [Using the Paramix Menu](#using-paramix-menu)
-           - [Fields](#menu-fields)
-           - [Items](#menu-items)
-           - [Points](#menu-points)
-    - [How to Emulate Older Tamagotchis on the Paradise](#how-to-emulate)
+    - [Tutorial](#paramix-tutorial)
+        - [Step 1: Plug In Your Device](#connect)
+        - [Step 2: Connect Your Device](#connect-device)
+        - [Step 3: Read ROM and Backup](#read-rom-backup)
+        - [Step 4 (Optional): Replace ROM](#replace-rom)
+        - [Step 5: Configure Your Device](#configure-your-device)
+            - [How to Emulate Older Tamagotchis on the Paradise](#how-to-emulate)
+        - [Step 6: Save Your Custom ROM](#save-write-custom-rom)
+        - [Step 7: Write to Device](#write-rom)
+        - [Step 8: Restart Your Device](#restart-device)
+    - [Using the Paramix Menu](#using-paramix-menu)
+        - [Fields](#menu-fields)
+        - [Items](#menu-items)
+        - [Points](#menu-points)
     - [How to Restore to Tamagotchi Paradise](#how-to-restore)
 - [TamaHome App Instructions](#tamahome-app-instructions)
-    - [UI Guide]()
-    - [TamaHome Tutorial]()
+- [Other Resources](#other-resources)
 
-### FAQ <a name="faq"></a>
+## FAQ <a name="faq"></a>
 **Q: Why would you want to mod your Tama Paradise?**
 
 A: If you want to customize your experience, if you like tinkering, or if you don't have access to a Tama Lab public device (which is most of us) (this is not to be confused with the Tama Home Lab that is releasing in the future).
@@ -43,52 +45,34 @@ A: As with all modding, there is a risk that you can lose save data or even bric
 
 A: I have a list of links to various [Tamagotchi Shops here](/resources/#tamagotchi-shops)!
 
-### Hacking the Tamagotchi Paradise Overview <a name="hacking-the-tamagotchi-paradise"></a>
+**Q: What hardware do I need?**
 
-To hack the Tamagotchi Paradise, you will need a device that allows your Paradise to communicate with your device of choice. There are 3 main adaptors: the UART Dongle, the PCOM, and the Patchi Paradise. Here is a quick rundown of the differences:
-<ul>
-<li><b>PCOM</b> - a proprietary connector for Android phones, sold by Tamagotchi Center. Only works with TC's web app. I do not recommend doing business with Tamagotchi Center, due to issues both with the community and that I have had personally. <a href="https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/" target="_blank">See this link for more information.</a></li>
-<li><b>UART Dongle</b> - Originally by CatalystWyrm but stolen by sellers on AliExpress. If you're handy with electronics, CatalystWyrm provides DIY instructions to build your own. They also sell them on their kofi, linked below, but are often sold out. If you purchase one off AliExpress, please consider donating to CW as a kindness for their hard work.</li>
-<li><b>Patchi Paradise</b> - A Paradise-to-PC connector by Marcel of TamaSpa. Unfortunately, due to German restrictions on imports and exports, this is currently unavailable outside of the EU.</li>
-</ul>
+A: There are 3 main adapters that I know of: the UART Dongle, the PCOM, and the Patchi Paradise. Here is a quick rundown of the differences:
+- **PCOM** - a proprietary connector for Android phones, sold by Tamagotchi Center. Only works with TC's web app. I do not recommend doing business with Tamagotchi Center, due to issues both with the community and that I have had personally. [See this link for more information](https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/).
+- **UART Dongle** - A generic connector for PC-to-Paradise communication. The first one I know of was by [CatalystWyrm aka bbamorachi](https://bbamorachi.us/), but they're available from other sellers or for DIY as well.
+- **Patchi Paradise** - A Paradise-to-PC connector by Marcel of TamaSpa. Unfortunately, due to German restrictions on imports and exports, this is currently unavailable outside of the EU.
 
-With that out of the way, on to the resources:
+**Q: What software do I need?**
 
-<li><a href="https://ko-fi.com/catalystwyrm/shop" target="_blank">CatalystWyrm's Shop</a> - home of the original **<a href="https://ko-fi.com/s/86de04ff8a" target="_blank">UART Dongle</a>**, a device which allows your Tamagotchi Paradise to communicate with your PC. Also home to:
-<ul>
-<li><a href="https://ko-fi.com/s/1843fe1f03" target="_blank">TamaHome App</a> - Designed to make custom items, ghosts, and playdates simple without relying on proprietary hardware or online services.</li>
-<li><a href="https://ko-fi.com/s/0cba4105ef" target="_blank">TamaSprite App</a> - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.</li>
-<li><a href="https://ko-fi.com/s/d48fe485c7" target="_blank">Paradise Sprite Browser</a> - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."</li>
-<li><a href="https://discord.gg/P58pHU7CN" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
-</ul>
+A: You'll need a program that can communicate with your Paradise from your PC. I know of:
+- [Paramix Studio](https://mameise.github.io/Paramix-Studio/) (Free) - **Requires a UART Dongle**. See the [Paramix Studio Instructions](#paramix-studio-instructions) below.
+- [TamaHome App](https://ko-fi.com/s/000f617d4a) ($7)
+- [Marcel's Patch Lab](https://ko-fi.com/s/1414b5336f) (Free) - **Requires Patchi Paradise Adapter, only available in Germany**. "With the adapter and the app you can do the following:
+    - Send download items to your Tama
+    - Gift items at no cost
+    - Playdates with Lab Tama characters to obtain their genes
+    - Simulate a Land, Water or Sky device to unlock the secret characters"
+- [bbamoratchi tools](https://tools.bbamorachi.us/) - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.
 
-<li><a href="https://tools.bbamorachi.us/" target="_blank">bbamoratchi tools</a> - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.</li>
+More tools: [Other Resources](#other-resources)
 
-<li><a href="https://ko-fi.com/s/1414b5336f" target="_blank">Marcel's Patch Lab</a> - **Requires Patchi Paradise Adapter, only available in Germany**. "With the adapter and the app you can do the following:
-<ul>
-<li> Send download items to your Tama</li>
-<li> Gift items at no cost</li>
-<li> Playdates with Lab Tama characters to obtain their genes</li>
-<li> Simulate a Land, Water or Sky device to unlock the secret characters"</li>
-</ul>
-
-<li><a href="https://mameise.github.io/Paramix-Studio/" target="_blank">Paramix Studio</a> - **Requires a UART Dongle** - this tool allows you to "rebuild your Paradise ROM", which means you can: 
-<ul><li> run TamaEmu on your Paradise so you can emulate color Tamas on an actual device</li>
-<li> change the fields on your Paradise ("Tropical and Glacier get Land, Water and Sky, Jade Forest gets Sky. With pictures, special characters and the matching planet.")</li>
-<li> Switch fields, put items in the bag and set Tamapoints, right on the Paradise with A and C.</li>
-<li> Back up the ROM and write the new one with a USB UART dongle. Saves are kept, only changes are written.</li>
-<li> Add custom characters: Every character as an image sheet to edit, Digimon from DIM cards too. Colours and eyes are fitted automatically.</li>
-<li> And, of course, play DOOM.</li>
-</li>
-</ul>
-
-### Needed for this Guide <a name="needed-for-guide"></a>
+## Needed for this Guide <a name="needed-for-guide"></a>
 - A Tamagotchi Paradise, ideally Wave 1 (Pink Land, Blue Ocean, Purple Sky)
-- A UART cord ("[What's a UART](/resources/#hacking-the-tamagotchi-paradise)?")
+- A UART cord ("[What's a UART](#uart-cable)?")
 - A PC with USB ports and either Google Chrome or Microsoft Edge.
 - Either the TamaHome app ($7) or Paramix Studio (free). This guide will cover both.
 
-## The Tamagotchi Paradise <a name="the-tamagotchi-paradise"></a>
+### The Tamagotchi Paradise <a name="the-tamagotchi-paradise"></a>
 
 <img src="/guides/mod-paradise/mpi-01.jpg" width="50%">
 
@@ -98,7 +82,7 @@ This is because the Jade, Glacier, and Tropics all have bigger default firmware,
 
 If you only want other mods such as unlocking fields or adding cheats, then you also do not need to do the extra step.
 
-## The UART Cable <a name="uart-cable"></a>
+### The UART Cable <a name="uart-cable"></a>
 It so happens that I have one of each type of UART cord. The original, handmade version:
 
 <img src="/guides/mod-paradise/mpi-10.jpg" width="80%">
@@ -112,27 +96,27 @@ And one from AliExpress:
 
 Both will work the same! Obviously it's better to support the community than AliExpress, but as catalystwyrm is frequently sold out, I wouldn't stress it.
 
-So your cable will have 2 ends. The USB end for your PC, and the weirdo end (that's a technical term) for your Paradise.
-
-<img src="/guides/mod-paradise/mpi-05.jpg" width="50%">
-
-The weirdo end is a series of interlocking arms (henceforth referred to as "grabby bits") and bars for the grabby bits to, well, grab. Make sure the grabby bits on the weird end match the bar on the Paradise, and vice versa. Once you have them lined up, press them together.
-
-<img src="/guides/mod-paradise/mpi-07.jpg" width="50%">
-
-It should look like this, where the little tab on the left goes into the left slot, and the same on the right side. Like a little yin-yang. Now hook the USB up to your PC and let's move on.
-
 ## Paramix Studio Instructions <a name="paramix-studio-instructions"></a>
 
 Firstly we'll cover how to use **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise. As a forewarning, this app is AI-assisted, but it's unknown how much of the code was written by AI, as it is also closed source. YMMV.
+
+This tool allows you to "rebuild your Paradise ROM", which means you can:
+- run TamaEmu on your Paradise so you can emulate color Tamas on an actual device
+- change the fields on your Paradise ("Tropical and Glacier get Land, Water and Sky, Jade Forest gets Sky. With pictures, special characters and the matching planet.")
+- Switch fields, put items in the bag and set Tamapoints, right on the Paradise with A and C.
+- Back up the ROM and write the new one with a USB UART dongle. Saves are kept, only changes are written.
+- Add custom characters: Every character as an image sheet to edit, Digimon from DIM cards too. Colours and eyes are fitted automatically.
+- And, of course, play DOOM.
 
 You can follow the link above, however, "instead of going to the link you should go to [https://github.com/mameise/Paramix-Studio/releases](https://github.com/mameise/Paramix-Studio/releases) and download the latest release. Once the HTML file is downloaded, you can open it and it will open in your browser. This way is to ensure that you are always using the latest version of Paramix." - Credit to [fuzzynchic_rachel on instagram](https://www.instagram.com/p/DenSU5ak4BW/) for this.
 
 ### UI Guide <a name="paramix-ui-guide"></a>
 
+This is a guide to the UI of Paramix Studio. If you just want the tutorial, you can [skip this section](#paramix-tutorial)!
+
 Here's what the UI will look like when you have a Jade Forest device connected and a Water Paradise ROM loaded (You can see it's currently writing the Water ROM to the device):
 
-<img src="/guides/mod-paradise/uiguide.png">
+<img src="/guides/mod-paradise/uiguide.png" width="80%">
 
 ##### Top Menu:
 - **"Help"**: A guide to using the tool. Pressing this button toggles the tutorial.
@@ -166,31 +150,55 @@ Here's what the UI will look like when you have a Jade Forest device connected a
     - **"Change Tama (level, care, character)"**: still investigating
 - **"Save"**: Allows you to save and load game saves. If you want to back up your emulated tamas, you can read the ROM and do that here.
 
-## Tutorial <a name="paramix-tutorial"></a>
+### Tutorial <a name="paramix-tutorial"></a>
 
-### Step 1: Connect <a name="connect"></a>
+#### Step 1: Plug In Your Device <a name="connect"></a>
+
+So your cable will have 2 ends. The USB end for your PC, and the weirdo end (that's a technical term) for your Paradise.
+
+<img src="/guides/mod-paradise/mpi-05.jpg" width="50%">
+
+The weirdo end is a series of interlocking arms (henceforth referred to as "grabby bits") and bars for the grabby bits to, well, grab. Make sure the grabby bits on the weird end match the bar on the Paradise, and vice versa. Once you have them lined up, press them together.
+
+<img src="/guides/mod-paradise/mpi-07.jpg" width="50%">
+
+It should look like this, where the little tab on the left goes into the left slot, and the same on the right side. Like a little yin-yang. Now hook the USB up to your PC and let's move on.
 
 Once on the page, begin by **connecting your Tama**. Click "Device" in the top menu bar.
 
+<img src="/guides/mod-paradise/step1.png" width="50%">
+
+#### Step 2: Connect Your Device <a name="connect-device"></a>
+
+<img src="/guides/mod-paradise/step2.png" width="50%">
+<img src="/guides/mod-paradise/step2a.png" width="50%">
+
+First, connect from the Tama's end: choose "Connection" from the Planet level menu, and then Download, then Download.
+
 Then choose "Connect" from the window that appears. It will pop up a dialogue asking to connect to your tama via USB, mine is usually on port "COM3/4". Select the device and confirm the dialogue.
 
-You'll also need to connect from the Tama's end:
-
-<img src="/guides/mod-paradise/mpi-08.jpg" width="80%">
-
-Choose "Connection" from the Planet level menu, and then Download, then Download.
-
-### 2: Read ROM and Backup <a name="read-rom-backup"></a>
+#### Step 3: Read ROM and Backup <a name="read-rom-backup"></a>
 
 Once your device is connected, you'll need to Read the ROM. This means the app will read what is currently loaded onto your device. This will take a LONG time. Be patient and absolutely do not interrupt the connection while it's going!
 
 It will give you a copy of the device's firmware to download, and it will also allow you to **backup your save data** locally. Be sure to back this up and keep it safe on your pc so you can restore from it later if something goes wrong and data gets corrupted. I mean, unless you bought a brand new device just for this, or you don't care about losing your save data. Then, do what you want, I'm not your mom.
 
 <img src="/guides/mod-paradise/mpi-11.jpg" width="50%">
+<img src="/guides/mod-paradise/step3.png" width="50%">
 
-### Configure Your Device <a name="configure-your-device"></a>
+#### Step 4 (Optional): Replace ROM <a name="replace-rom"></a>
 
-From there, depending on your device, you can configure what changes you want to make to the ROM. Please note that if you want to run emulation of other tamas on your Jade Forest, White Glacier, or Orange Tropics, you need to first *replace the firmware with that of a wave 1 device*. That means getting the Firmware, loading it via "Open ROM," and skipping to the next step to write it to the device.
+If you have a Jade, Glacier, or Tropics Paradise, you'll need to first switch the ROM to Land/Sky/Water. If you have a wave 1 device, [skip to the next step](#configure-your-device).
+
+<img src="/guides/mod-paradise/step4.png" width="50%">
+
+Open the ROM for Land, Sky, or Water, and then choose to write new ROM to device. Wait a long time for it to write, then when it's done, restart your device and [begin the tutorial again from Step 1](#connect).
+
+<img src="/guides/mod-paradise/step4a.png" width="50%">
+
+#### Step 5: Configure Your Device <a name="configure-your-device"></a>
+
+From there, depending on your device, you can configure what changes you want to make to the ROM.
 
 **All Devices**
 - Change Characters to custom sprites
@@ -205,20 +213,42 @@ From there, depending on your device, you can configure what changes you want to
 **Wave 2+ Devices Only:**
 - Unlock other fields (Jade Forest gets Sky, Tropical and Glacier get Land, Water and Sky)
 
-**Wave 1 Devices Only:**
+**Wave 1 Devices Only:** <a name="how-to-emulate"></a>
 - Emulation: you can choose to emulate almost any Tamagotchi that you have the firmware for. ([Where do I get Tamagotchi Firmware?](/resources/#tamagotchi-emulation-resources))
     - You can also add items or patches to these custom firmwares, if they support it.
 - You can also emulate DOOM if you have the firmware WAD.
 
-### Save and Write your custom ROM <a name="save-write-custom-rom"></a>
+Choose the ROM for the Tamagotchi version you want to emulate.
+
+<img src="/guides/mod-paradise/step5.png" width="50%">
+
+Some emulators will let you add custom content at this stage by clicking the little arrow beside the firmware name. Examples include the IDL, 4U, PS, and Tamago.
+
+<img src="/guides/mod-paradise/step5a.png" width="50%">
+
+#### Step 6: Save Your Custom ROM <a name="save-write-custom-rom"></a>
+
+The "Your new ROM" section will tell you what you've chosen to add to the device, and how much space remains.
 
 Once you've got things the way you want them, choose the "Save new ROM" button in the upper menu bar and save the file to your PC. You'll want it later in case you decide to make edits to it (which, btw, you can do without your Tama being plugged in).
 
+<img src="/guides/mod-paradise/step6.png" width="50%">
+
+#### Step 7: Write to Device <a name="write-rom"></a>
+
 Then, you can write your ROM to your device. Again, this will take *ages* but you need to be patient and **do not under any circumstances disconnect or interrupt the connection**. A partially applied ROM will potentially brick your device and you'll need to have it re-flashed by a professional. ([Where can I get my tamagotchi repaired?](/resources/#tamagotchi-repair-etc))
+
+<img src="/guides/mod-paradise/step7.png" width="50%">
+
+#### Step 8: Restart Your Device <a name="restart-device"></a>
 
 Once it has finished transferring, you can safely unplug the device. You do not need to disconnect it via the software, simply **hit the reset button** to exit the menu on the device and then safely unplug it from your PC. There are no special steps you need to take when unplugging as long as no transfer is occurring.
 
-<img src="/guides/mod-paradise/mpi-12.jpg" width="50%">
+<img src="/guides/mod-paradise/step8.png" width="50%">
+
+You're done! Press the wheel button in to return to the Paradise in case you want to make changes to your device.
+
+<img src="/guides/mod-paradise/step9.png" width="50%">
 
 ### Using the Paramix Menu <a name="using-paramix-menu"></a>
 
@@ -243,22 +273,7 @@ In this menu, you can choose items to be added to your game. You select the item
 #### Points <a name="menu-points"></a>
 This shows your current gotchi points, and allows you to edit the number to whatever you'd like. Saving this value is reflected immediately ingame.
 
-## How to Emulate other Tamagotchis on the Paradise <a name="how-to-emulate"></a>
-
-<img src="/guides/mod-paradise/step1.png">
-<img src="/guides/mod-paradise/step2.png">
-<img src="/guides/mod-paradise/step2a.png">
-<img src="/guides/mod-paradise/step3.png">
-<img src="/guides/mod-paradise/step4.png">
-<img src="/guides/mod-paradise/step4a.png">
-<img src="/guides/mod-paradise/step5.png">
-<img src="/guides/mod-paradise/step5a.png">
-<img src="/guides/mod-paradise/step6.png">
-<img src="/guides/mod-paradise/step7.png">
-<img src="/guides/mod-paradise/step8.png">
-<img src="/guides/mod-paradise/step9.png">
-
-## How to restore from emulation to Tamagotchi Paradise <a name="how-to-restore"></a>
+### How to restore from emulation to Tamagotchi Paradise <a name="how-to-restore"></a>
 
 If you eventually decide you'd like to go back to your original firmware, here's how to do it.
 
@@ -280,3 +295,8 @@ If you eventually decide you'd like to go back to your original firmware, here's
 ## TamaHome App Instructions <a name="tamahome-app-instructions"></a>
 
 Coming soon! Feel free to encourage me by [DMing me on Reddit](https://www.reddit.com/user/katubug/)!
+
+## Other Resources <a name="other-resources"></a>
+- [TamaSprite App](https://ko-fi.com/s/0cba4105ef) - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.
+- [Paradise Sprite Browser](https://ko-fi.com/s/d48fe485c7) - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."
+- [TamaSuite Discord](https://discord.gg/P58pHU7CN) - a discord for the discussion of TamaHome etc.
