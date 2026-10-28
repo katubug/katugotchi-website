@@ -5,6 +5,7 @@ layout: layout.html
 
 ## Table of Contents
 - [FAQ](#faq)
+- [Hacking The Tamagotchi Paradise Overview](#hacking-the-tamagotchi-paradise)
 - [Needed for This Guide](#needed-for-guide)
     - [The Tamagotchi Paradise](#the-tamagotchi-paradise)
     - [The UART Cable](#uart-cable)
@@ -26,17 +27,60 @@ layout: layout.html
     - [TamaHome Tutorial]()
 
 ### FAQ <a name="faq"></a>
-Q: Why would you want to mod your Tama Paradise?
+**Q: Why would you want to mod your Tama Paradise?**
 
 A: If you want to customize your experience, if you like tinkering, or if you don't have access to a Tama Lab public device (which is most of us) (this is not to be confused with the Tama Home Lab that is releasing in the future).
 
-Q: What can modding it do? 
+**Q: What can modding it do?**
 
 A: You can cheat in items and gotchi points, do Lab Tama playdates or unlock Lab Tama exclusive items. With Wave 1 devices you can even emulate other color tama types, or other games entirely (like DOOM)!
 
-Q: What are the risks?
+**Q: What are the risks?**
 
-A: As with all modding, there is a risk that you can lose save data or even brick your device. However, as long as you follow all the directions, there is very little risk of this happening.
+A: As with all modding, there is a risk that you can lose save data or even brick your device. Additionally, emulating other Tamagotchis on the Paradise can be somewhat glitchy, and drains batteries very quickly (sometimes in a matter of days).
+
+**Q: Where can I get custom content for my Tamagotchi Paradise?**
+
+A: I have a list of links to various [Tamagotchi Shops here](/resources/#tamagotchi-shops)!
+
+### Hacking the Tamagotchi Paradise Overview <a name="hacking-the-tamagotchi-paradise"></a>
+
+To hack the Tamagotchi Paradise, you will need a device that allows your Paradise to communicate with your device of choice. There are 3 main adaptors: the UART Dongle, the PCOM, and the Patchi Paradise. Here is a quick rundown of the differences:
+<ul>
+<li><b>PCOM</b> - a proprietary connector for Android phones, sold by Tamagotchi Center. Only works with TC's web app. I do not recommend doing business with Tamagotchi Center, due to issues both with the community and that I have had personally. <a href="https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/" target="_blank">See this link for more information.</a></li>
+<li><b>UART Dongle</b> - Originally by CatalystWyrm but stolen by sellers on AliExpress. If you're handy with electronics, CatalystWyrm provides DIY instructions to build your own. They also sell them on their kofi, linked below, but are often sold out. If you purchase one off AliExpress, please consider donating to CW as a kindness for their hard work.</li>
+<li><b>Patchi Paradise</b> - A Paradise-to-PC connector by Marcel of TamaSpa. Unfortunately, due to German restrictions on imports and exports, this is currently unavailable outside of the EU.</li>
+</ul>
+
+With that out of the way, on to the resources:
+
+<li><a href="https://ko-fi.com/catalystwyrm/shop" target="_blank">CatalystWyrm's Shop</a> - home of the original **<a href="https://ko-fi.com/s/86de04ff8a" target="_blank">UART Dongle</a>**, a device which allows your Tamagotchi Paradise to communicate with your PC. Also home to:
+<ul>
+<li><a href="https://ko-fi.com/s/1843fe1f03" target="_blank">TamaHome App</a> - Designed to make custom items, ghosts, and playdates simple without relying on proprietary hardware or online services.</li>
+<li><a href="https://ko-fi.com/s/0cba4105ef" target="_blank">TamaSprite App</a> - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.</li>
+<li><a href="https://ko-fi.com/s/d48fe485c7" target="_blank">Paradise Sprite Browser</a> - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."</li>
+<li><a href="https://discord.gg/P58pHU7CN" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
+</ul>
+
+<li><a href="https://tools.bbamorachi.us/" target="_blank">bbamoratchi tools</a> - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.</li>
+
+<li><a href="https://ko-fi.com/s/1414b5336f" target="_blank">Marcel's Patch Lab</a> - **Requires Patchi Paradise Adapter, only available in Germany**. "With the adapter and the app you can do the following:
+<ul>
+<li> Send download items to your Tama</li>
+<li> Gift items at no cost</li>
+<li> Playdates with Lab Tama characters to obtain their genes</li>
+<li> Simulate a Land, Water or Sky device to unlock the secret characters"</li>
+</ul>
+
+<li><a href="https://mameise.github.io/Paramix-Studio/" target="_blank">Paramix Studio</a> - **Requires a UART Dongle** - this tool allows you to "rebuild your Paradise ROM", which means you can: 
+<ul><li> run TamaEmu on your Paradise so you can emulate color Tamas on an actual device</li>
+<li> change the fields on your Paradise ("Tropical and Glacier get Land, Water and Sky, Jade Forest gets Sky. With pictures, special characters and the matching planet.")</li>
+<li> Switch fields, put items in the bag and set Tamapoints, right on the Paradise with A and C.</li>
+<li> Back up the ROM and write the new one with a USB UART dongle. Saves are kept, only changes are written.</li>
+<li> Add custom characters: Every character as an image sheet to edit, Digimon from DIM cards too. Colours and eyes are fitted automatically.</li>
+<li> And, of course, play DOOM.</li>
+</li>
+</ul>
 
 ### Needed for this Guide <a name="needed-for-guide"></a>
 - A Tamagotchi Paradise, ideally Wave 1 (Pink Land, Blue Ocean, Purple Sky)
@@ -80,7 +124,7 @@ It should look like this, where the little tab on the left goes into the left sl
 
 ## Paramix Studio Instructions <a name="paramix-studio-instructions"></a>
 
-Firstly we'll cover how to use **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise.
+Firstly we'll cover how to use **[Paramix Studio](https://mameise.github.io/Paramix-Studio/)**, a free app designed by mameise. As a forewarning, this app is AI-assisted, but it's unknown how much of the code was written by AI, as it is also closed source. YMMV.
 
 You can follow the link above, however, "instead of going to the link you should go to [https://github.com/mameise/Paramix-Studio/releases](https://github.com/mameise/Paramix-Studio/releases) and download the latest release. Once the HTML file is downloaded, you can open it and it will open in your browser. This way is to ensure that you are always using the latest version of Paramix." - Credit to [fuzzynchic_rachel on instagram](https://www.instagram.com/p/DenSU5ak4BW/) for this.
 

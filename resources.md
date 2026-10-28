@@ -7,7 +7,7 @@ This page will contain links to other tamagotchi tutorials or important content,
 
 ## Table of Contents
 - [Tamagotchi Emulation Resources](#tamagotchi-emulation-resources)
-- [Hacking the Tamagotchi Paradise](#hacking-the-tamagotchi-paradise)
+- [Hacking the Tamagotchi Paradise](/guides/how-to-mod-tamagotchi-paradise/)<a name="#hacking-the-tamagotchi-paradise"></a>
 - [Websites that Interact with Devices](#websites-that-interact-with-devices)
 - [Tamagotchi Repair ETC](#tamagotchi-repair-etc)
 - [Tamagotchi Knowledge](#tamagotchi-knowledge)
@@ -21,6 +21,8 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
       
 ### Tamagotchi Emulation Resources <a name="tamagotchi-emulation-resources"></a>
     
+* [BrickEmuPy](https://github.com/azya52/BrickEmuPy) - An emulator for many lcd toys, including: Tamagotchi P1, P2, Mothra, Angel, Umino, Morino, Genjintch, Yasashii, Connection V3, and Tamagotchi Mini 2017. Found from [this emulation wiki link](https://emulation.gametechwiki.com/index.php/Tamagotchi).
+* [TamaTool](https://github.com/jcrona/tamatool) - An explorer/emulator for P1 and P2 Tamagotchi (P1, P2, Angel)
 * [TamaWeb](https://samandev.itch.io/tamaweb) - play a tamagotchi-inspired fangame in your browser, on your PC, or your Android!
 * [TamaEmu for Web](https://maragotchi.github.io/tamaemu-web/) - runs the P's, iDL/E, 4U, 4U+, and Plus Color ROMs.
 * [TamaEmu for Android](https://github.com/mameise/TamaEmu_Android/releases) - Same program as above, adapted to run on an Android device.
@@ -32,49 +34,6 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 Now, you're probably wondering, **where do you get ROMs, anyway**? Well, in the interest of ethics, I will tell you that the only *legal* way to acquire Tamagotchi firmware is to dump the ROM yourself. However, this requires significant electronics knowledge, and in many cases will ruin the device, and also isn't guaranteed to work. It's not an easy undertaking.
 
 However, in the interest of software preservation, I will tell you that there is an **ARCHIVE ORG**anization which is dedicated to uploading copies of old software, that they may be enjoyed for years to come. Wink wink.
-
-### Hacking the Tamagotchi Paradise  <a name="hacking-the-tamagotchi-paradise"></a>
-
-To hack the Tamagotchi Paradise, you will need a device that allows your Paradise to communicate with your device of choice. There are 3 main adaptors: the UART Dongle, the PCOM, and the Patchi Paradise. Here is a quick rundown of the differences:
-<ul>
-<li><b>PCOM</b> - a proprietary connector for Android phones, sold by Tamagotchi Center. Only works with TC's web app. I do not recommend doing business with Tamagotchi Center, due to issues both with the community and that I have had personally. <a href="https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/" target="_blank">See this link for more information.</a></li>
-<li><b>UART Dongle</b> - Originally by CatalystWyrm but stolen by sellers on AliExpress. If you're handy with electronics, CatalystWyrm provides DIY instructions to build your own. They also sell them on their kofi, linked below, but are often sold out. If you purchase one off AliExpress, please consider donating to CW as a kindness for their hard work.</li>
-<li><b>Patchi Paradise</b> - A Paradise-to-PC connector by Marcel of TamaSpa. Unfortunately, due to German restrictions on imports and exports, this is currently unavailable outside of the EU.</li>
-</ul>
-
-With that out of the way, on to the resources:
-
-<ul>
-<li><a href="https://ko-fi.com/catalystwyrm/shop" target="_blank">CatalystWyrm's Shop</a> - home of the original **<a href="https://ko-fi.com/s/86de04ff8a" target="_blank">UART Dongle</a>**, a device which allows your Tamagotchi Paradise to communicate with your PC. Also home to:
-<ul>
-<li><a href="https://ko-fi.com/s/1843fe1f03" target="_blank">TamaHome App</a> - Designed to make custom items, ghosts, and playdates simple without relying on proprietary hardware or online services.</li>
-<li><a href="https://ko-fi.com/s/0cba4105ef" target="_blank">TamaSprite App</a> - Customize your Tamagotchi Paradise & Jade Forest firmware with ease! With Sprite Editing, Organization, Ghost Slot Editor, and Firmware support.</li>
-<li><a href="https://ko-fi.com/s/d48fe485c7" target="_blank">Paradise Sprite Browser</a> - "Browse all 1400+ sprites from Tamagotchi Paradise across original Shell and Jade Forest variants."</li>
-<li><a href="https://discord.gg/P58pHU7CN" target="_blank">TamaSuite Discord</a> - a discord for the discussion of TamaHome etc.</li>
-</ul>
-
-<li><a href="https://tools.bbamorachi.us/" target="_blank">bbamoratchi tools</a> - Tools for modifying the Tamagotchi Paradise. **Requires a UART Dongle**. Allows the following: Gifts (including Tama Lab), Playdates (including Tama Lab), Lab Codes, Money Boost, Trade Between Devices Online, Live Playdates with other users.</li>
-
-<li><a href="https://ko-fi.com/s/1414b5336f" target="_blank">Marcel's Patch Lab</a> - **Requires Patchi Paradise Adapter, only available in Germany**. "With the adapter and the app you can do the following:
-<ul>
-<li> Send download items to your Tama</li>
-<li> Gift items at no cost</li>
-<li> Playdates with Lab Tama characters to obtain their genes</li>
-<li> Simulate a Land, Water or Sky device to unlock the secret characters"</li>
-</ul>
-
-<li><a href="https://mameise.github.io/Paramix-Studio/" target="_blank">Paramix Studio</a> - **Requires a UART Dongle** - this tool allows you to "rebuild your Paradise ROM", which means you can: 
-<ul><li> run TamaEmu on your Paradise so you can emulate color Tamas on an actual device</li>
-<li> change the fields on your Paradise ("Tropical and Glacier get Land, Water and Sky, Jade Forest gets Sky. With pictures, special characters and the matching planet.")</li>
-<li> Switch fields, put items in the bag and set Tamapoints, right on the Paradise with A and C.</li>
-<li> Back up the ROM and write the new one with a USB UART dongle. Saves are kept, only changes are written.</li>
-<li> Add custom characters: Every character as an image sheet to edit, Digimon from DIM cards too. Colours and eyes are fitted automatically.</li>
-<li> And, of course, play DOOM.</li>
-</li>
-</ul>
-<li><a href="https://ko-fi.com/gatusita/shop" target="_blank">Gatusita</a> - Free custom ingame items for the Tamagotchi Paradise.</li>
-<li><a href="https://ko-fi.com/neomametchi" target="_blank">Neomametchi</a> - Free and paid custom ingame items for the Tamagotchi Paradise.</li>
-</ul>
 
 ### Websites that Interact with Devices <a name="websites-that-interact-with-devices"></a>
 
@@ -125,12 +84,20 @@ With that out of the way, on to the resources:
 
 I know it's a little silly to put shops and free downloads in the same section, but some places offer both, so each link will be marked.
 
-- **Paid** [Electronic Days](https://ko-fi.com/electronicdays/shop) - custom shells and accessories for various tama models.
-- **Free** [Green Magic On Faceplate for Tamagotchi Paradise](https://www.reddit.com/r/TamagotchiParadise/comments/1xg53tz/paradise_to_meets_shellfaceplate/)
-- **Free** [Hayhaybean's Ko-Fi](https://ko-fi.com/hayhaybeans/shop) - Custom ingame items that you can add to your Tama Paradise! Many Pokemon themed.
-- **Paid** [Sozai's Ko-Fi](https://ko-fi.com/sozai0001/shop) - Custom ingame items for Tamagotchi Meets/On, and Paradise, including items from other Tamagotchi games and Chiikawa.
-- **Paid** [Tamagotchi.vn's Ko-Fi](https://ko-fi.com/aiden39/shop) - Custom ingame items for Tamagotchi Meets/On, 4U, Paradise, Smart etc.
-- **Free** [MandaGodofWar's Halloween Items](https://drive.google.com/drive/folders/1ulsl7JwNGuV-dqQ4k4lDoslYJ4FFZ5qx) - Custom ingame items for the Tamagotchi Paradise, Halloween-themed! [View the reddit post with previews here](https://www.reddit.com/r/TamagotchiParadise/comments/1xdwkgt/more_customized_halloween_items/).
+- [ **Paid** | **Physical Items** ] [Electronic Days](https://ko-fi.com/electronicdays/shop) - custom shells and accessories for various tama models.
+- [ **Free** | **Digital Items** ] [Green Magic On Faceplate for Tamagotchi Paradise](https://www.reddit.com/r/TamagotchiParadise/comments/1xg53tz/paradise_to_meets_shellfaceplate/)
+- [ **Free** | **Digital Items** ] [Hayhaybean's Ko-Fi](https://ko-fi.com/hayhaybeans/shop) - Custom ingame items that you can add to your Tama Paradise! Many Pokemon themed.
+- [ **Paid** | **Digital Items** ] [Sozai's Ko-Fi](https://ko-fi.com/sozai0001/shop) - Custom ingame items for Tamagotchi Meets/On, and Paradise, including items from other Tamagotchi games and Chiikawa.
+- [ **Paid** | **Digital Items** ] [Tamagotchi.vn's Ko-Fi](https://ko-fi.com/aiden39/shop) - Custom ingame items for Tamagotchi Meets/On, 4U, Paradise, Smart etc.
+- [ **Free** | **Digital Items** ] [MandaGodofWar's Halloween Items](https://drive.google.com/drive/folders/1ulsl7JwNGuV-dqQ4k4lDoslYJ4FFZ5qx) - Custom ingame items for the Tamagotchi Paradise, Halloween-themed! [View the reddit post with previews here](https://www.reddit.com/r/TamagotchiParadise/comments/1xdwkgt/more_customized_halloween_items/).
+- [ **Paid** | **Physical Items** ] [Mawuczi's Ko-Fi](https://ko-fi.com/mawuczi/shop) - Tamagotchi stickers, keychains, and other merch.
+- [ **Free** | **Digital Items** ] [Gatusita's Ko-Fi](https://ko-fi.com/gatusita/shop) - Free custom ingame items for the Tamagotchi Paradise.
+- [ **Free/Paid** | **Digital Items** ] [JellySnacks' Ko-Fi](https://ko-fi.com/jellysnacks/shop) - 3D Model STLs including Tama Paradise Buttons and Tama Restaurant Figurines, and free wallpapers.
+- [ **Free** | **Digital Items** ] [JellySnacks's Freebies](https://jellysnacks.carrd.co/#freebies) - Printable Tamagotchi Paradise faceplates and wallpapers.
+- [ **Free/Paid** | **Digital Items**] [Neomametchi's Ko-Fi](https://ko-fi.com/neomametchi) - Custom ingame items for the Tamagotchi Paradise.
+- [ **Paid** | **Physical Items** ] [TamaYouin's Ko-Fi](https://ko-fi.com/tamayouin/shop) - Custom shells for Tamagotchi Uni, Paradise, as well as Faceplates and replacement parts.
+- [ **Free** | **Digital Items** ] [Munina's Ko-Fi](https://ko-fi.com/muninaart/shop) - free downloadable faceplates for Tamagotchi Uni and Pix, a Tama Smart Collection Journal, phone wallpapers, and a free crochet case pattern for Smart/Uni.
+- [ **Paid** | **Physical Items** ] [Naji810's Etsy](https://www.etsy.com/shop/NAJI810) - Custom shells, faceplates, screen protectors, and replacement parts like screws, buttons, and more.
 
 
 ### Guides and General Fansites <a name="general-fansites"></a>
@@ -138,8 +105,9 @@ I know it's a little silly to put shops and free downloads in the same section, 
 * [Gotchi Garden](https://gotchi-garden.blogspot.com/p/welcome.html) - Care sheets, growth, character and connection charts, secret codes, unlock guides for vintage through Paradise; large link hub to other sites, shops and YouTubers.
 * [Ginjirotchi.ca](http://www.ginjirotchi.ca/TamaMain.html) - Shrine-style vintage fan site built around per-device sections and very long-running care journals — [Tamagotchi Incarnations](http://www.ginjirotchi.ca/TamaMain.html) is the hub, with dedicated areas for [Devilgotchi](http://www.ginjirotchi.ca/devil/devilmain.html), [Mothra](http://www.ginjirotchi.ca/Mothra/mothindex.html), the [Ocean Shrine](http://www.ginjirotchi.ca/Ocean/ocshrine.html) and the [20th Anniversary](http://www.ginjirotchi.ca/20thAnni/main.html) release, plus [photo galleries](http://ginjirotchi.ca/TamaPhotos.html)!
 * [David's Crossing](https://davidscrossing.com/tamagotchi_index.php) - Vintage Tamagotchi logs and history, per-device: opinions, collection notes with purchase dates and prices, and dated run logs.
-* [Tamagotchi Crossing](https://tamagotchicrossing.com/) - A fansite focused on vintage tamas, with history/logs, reviews, collection info, and more!
-* [Disposablepie's Neocities](https://disposablepie.neocities.org/) - A collection of guides and trackers by the very cool and excellent disposablepie!
+* [Tamagotchi Crossing](https://tamagotchicrossing.com/) - A fansite focused on vintage tamas, with history/logs, reviews, collection info, and more.
+* [Disposablepie's Neocities](https://disposablepie.neocities.org/) - A collection of guides and trackers by the very cool and excellent disposablepie.
+* [JellySnacks Carrd](https://jellysnacks.carrd.co/) - Cute 3D renders of Tama characters, custom tamagotchi shells, and more.
 
 
 
