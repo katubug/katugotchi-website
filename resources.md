@@ -13,6 +13,7 @@ This page will contain links to other tamagotchi tutorials or important content,
 - [Tamagotchi Knowledge](#tamagotchi-knowledge)
 - [Tamagotchi Shops/Free Downloads](#tamagotchi-shops)
 - [Guides and General Fansites](#general-fansites)
+- [Tamagotchi Phone Apps](#tamagotchi-phone-apps)
 - [YouTube Resources](#youtube-resources)
 
 First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combines Jade Forest, White Glacier, and Tropical growth charts into one image:
@@ -30,6 +31,7 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 * [TG18Emu](https://github.com/oreo-fox/tg18-emu) - A Windows emulator for Tamagotchi On and Meets.
 * [How to Mod a Tamagotchi Paradise](/guides/how-to-mod-tamagotchi-paradise/)
 * [Tamagotchi P2 for Android](https://github.com/LyesDemri/TamagotchiP2Android) - an Android emulator with recreations of vintage tamas (currently P2 and Santaclautchi). Behavior may differ from the originals, as they are coded from scratch, not emulated firmware. Does not require a ROM.
+* [OpenMeets](https://openmeets.app/) - An AI-assisted Meets/On emulator for Android. Closed source, must sideload APK, user assumes risk.
 
 #### Where do you get ROMs/Firmware?
 Now, you're probably wondering, **where do you get ROMs, anyway**? Well, in the interest of ethics, I will tell you that the only *legal* way to acquire Tamagotchi firmware is to dump the ROM yourself. However, this requires significant electronics knowledge, and in many cases will ruin the device, and also isn't guaranteed to work. It's not an easy undertaking.
@@ -66,9 +68,8 @@ However, in the interest of software preservation, I will tell you that there is
 ### Tamagotchi Repair ETC <a name="tamagotchi-repair-etc"></a>
 * USA
   * [Mikablu](https://ko-fi.com/mikablu)
-  * [Tama Tinkerer](https://tamatinkerer.neocities.org/)
 * UK
-  * [Marcel's Tama Spa](https://ko-fi.com/tamaspa)
+  * [Marcel's Tama Spa](https://ko-fi.com/tamaspa) - Currently dealing with EU regulations but services are offered worldwide once that's dealt with!
   * ([Why not Tamagotchi Center?](https://www.reddit.com/r/tamagotchi/comments/1v8cx08/psa_promotion_discussion_of_tamagotchi_center_is/))
 * Asia
   * [TamagotchiVN](https://www.instagram.com/tamagotchi.vn)
@@ -78,8 +79,12 @@ However, in the interest of software preservation, I will tell you that there is
 * [Tamagotchi Wiki](https://tamagotchi.fandom.com/wiki/Main_Page) - A Fandom.com wiki about all things Tamagotchi.
 * [Tamagotchi Wikipedia Page](https://en.wikipedia.org/wiki/Tamagotchi) - What it says on the tin. Included for completeness.
 * [Tamagotchi Tech Specs Collection](https://tama.loociano.com/) - A page that lists all the various tech specs of each tamagotchi device. It includes teardowns and interior photos. Excellent resource for modders or tinkerers!
+* [Tamagotchi Hardware Guide](https://docs.google.com/spreadsheets/d/1E3SbHKJXI4MtC6T1eo1tp9XTXYFZjB1EUim-dIcLW-A/edit?gid=0#gid=0) - Similar to the above, a guide by Mikablu aka Debutchi.
 * [TamaHacks](https://tamahacks.com/) {[Archive.org Mirrors](https://web.archive.org/web/*/https://tamahacks.com/*)} - MediaWiki hacking reference: Uni, Pix, Smart, On/Meets, P's, 4U, iDL, Connection firmware; English-patch and chip-flashing guides. However, frequently down and has a lot of weird SEO spam pages.
 * [Tamagotchi Decapped Series: Yasashii Character Guide](https://www.reddit.com/r/tamagotchi/comments/1xelsmk/yasashii_character_guide_tamagotchi_decapped/) - A guide to raising characters on the Yasashii device, informed by the decompiled firmware! By Mikablu aka debutchi.
+* [How to Flash a Tamagotchi Smart](/guides/how-to-flash-tamagotchi-smart/) - A guide on how to flash the Tamagotchi Smart's firmware, by Mikablu aka Debutchi.
+* [How to Flash a Tamagotchi Meets/On](/guides/how-to-flash-tamagotchi-meets-on/) - A guide on how to Flash the Meets/Some/On Firmware, by Mikablu aka Debutchi.
+
 
 ### Tamagotchi Shops <a name="tamagotchi-shops"></a>
 
@@ -110,10 +115,14 @@ I know it's a little silly to put shops and free downloads in the same section, 
 * [Disposablepie's Neocities](https://disposablepie.neocities.org/) - A collection of guides and trackers by the very cool and excellent disposablepie.
 * [JellySnacks Carrd](https://jellysnacks.carrd.co/) - Cute 3D renders of Tama characters, custom tamagotchi shells, and more.
 
+### Tamagotchi Phone Apps <a name="tamagotchi-phone-apps"></a>
 
+- [Tamalogy](https://www.reddit.com/r/tamagotchi/comments/1xhdmc7/tamalogy_is_now_available_on_ios_and_google_play/) - Tamalogy is a free-time app (iOS and Google Play) for Tamagotchi collectors. It lets you keep a photo journal for each device, build family trees you can export, track which characters you've raised, record Paradise genetic traits, bring in upscaled photos from the Uni with QR codes, and look up care guides. - [ [Apple App Store](https://apps.apple.com/us/app/tamalogy/id6760539901) | [Google Play Store](https://play.google.com/store/apps/details?id=com.tamatown.tamaalbum) ]
+- [GotchaTama](https://www.reddit.com/r/tamagotchi/comments/1o6n8bg/gotchatama_200_is_now_live_on_the_google_play/) - An offline app to help you track which tamagotchis you've unlocked on various devices, and how to evolve the characters you want! [ [Apple App Store](https://apps.apple.com/ca/app/gotchatama/id6749816784) | [Google Play Store](https://play.google.com/store/apps/details?id=com.PeacefulDev.GotchaTama&pli=1) ]
+- [Boing Boing Animals](https://boingboinganimals.wiki.gg/) - A mobile virtual pet where you can raise animals, inspired by Tamagotchi! [ [Apple App Store](https://apps.apple.com/au/app/boing-boing-animals/id6476317381) | [Google Play Store](https://play.google.com/store/apps/details?id=com.FivekraD.BoingBoingAnimals&hl=en_US) ]
 
 ### YouTube Resources <a name="youtube-resources"></a>
 
-<ul><li><a href="/youtube/">Click here for YouTube resources!</a></li></ul>
+- [Click here for YouTube resources!](/youtube/)
 
 

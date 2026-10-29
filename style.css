@@ -445,6 +445,173 @@ details .small h4 {
 }
 
 /* -------------------------------------------------------- */
+/* COLLECTION */
+/* -------------------------------------------------------- */
+
+.collect_container {
+  --pill-color: #e3aaf0;
+  display: flex;
+  flex-wrap: nowrap; /* squish, don't stack */
+  gap: 2em;
+  margin: 1.5em 0;
+}
+
+/* left side */
+.collect_info {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  container-type: inline-size; /* for the @container below */
+}
+
+.collect_row {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.collect_label {
+  flex: 0 1 9em; /* same width so values line up, can shrink */
+  min-width: 0;
+  background: var(--pill-color);
+  border-radius: 15px;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.08em;
+}
+
+.collect_value {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* notes get the big box */
+.collect_notes {
+  background: var(--pill-color);
+  border-radius: 1.5em;
+  padding: 1em 1.2em;
+  align-items: flex-start;
+  min-height: 7em;
+  min-width: 15em;
+}
+
+.collect_notes .collect_label {
+  background: none;
+  padding: 0;
+  flex-basis: auto;
+  font-size: 0.75em;
+}
+
+/* right side */
+.collect_photos {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.collect_photos img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5em;
+  background: #000;
+}
+
+.collect_main {
+  aspect-ratio: 1 / 1;
+}
+
+.collect_thumbs {
+  display: flex;
+  gap: 1.5em;
+}
+
+.collect_thumbs img {
+  flex: 1;
+  min-width: 0; /* or they overflow */
+  aspect-ratio: 1 / 1;
+}
+
+.collect_photos a {
+  display: block;
+  cursor: zoom-in;
+}
+
+/* thumbs moved to the <a> so they still share the row */
+.collect_thumbs a {
+  flex: 1;
+  min-width: 0;
+}
+
+/* lightbox */
+.lightbox-popup {
+  padding: 0;
+  border: none;
+  background: none;
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: zoom-out;
+}
+
+.lightbox-popup::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.lightbox-popup img {
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: var(--round-borders);
+}
+
+/* info column too skinny, put values under labels */
+@container (max-width: 300px) {
+  .collect_row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4em;
+  }
+
+  .collect_label {
+    flex-basis: auto;
+  }
+
+  .collect_notes {
+    min-width: 0;
+  }
+}
+
+
+
+/* -------------------------------------------------------- */
+/* CUTE BITS */
+/* -------------------------------------------------------- */
+
+/* scrolling version*/
+.lacescr {
+border-width:7px;
+border-style:solid;
+border-image: url("https://i.imgur.com/NJa4bp2.png") 8 fill round;
+width:100%;
+height:100px;
+overflow-y:auto;
+overflow-x:hidden;
+} 
+
+
+
+
+/* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
 

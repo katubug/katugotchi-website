@@ -341,6 +341,25 @@ function newColour() {
       };
 
       syncToggle();
+
+      // lightbox for any <a class="lightbox"> around an image
+      const box = document.createElement("dialog");
+      box.className = "lightbox-popup";
+      box.innerHTML = "<img alt=''>";
+      document.body.append(box);
+      const boxImg = box.querySelector("img");
+
+      document.querySelectorAll("a.lightbox").forEach((a) => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          boxImg.src = a.href;
+          boxImg.alt = a.querySelector("img")?.alt || "";
+          box.showModal();
+        });
+      });
+
+      // click anywhere to close (esc works on its own)
+      box.addEventListener("click", () => box.close());
     </script>
   </body>
 </html>
