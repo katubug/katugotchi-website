@@ -6,12 +6,13 @@ layout: layout.html
 ## Dedicated Tamagotchi Channels
 
 - [Jini In The Bottle](https://youtube.com/@jiniinthebottle) - my favorite! She posts tamagotchi gameplay, reviews, and other cute things. She has a really nice voice as well.
+- [LeanneLand](https://youtube.com/@leanneland) - My initial impression is that she is profit-focused, and also unfortunately uses AI in her thumbnails. Still, the content is pretty good.
+- [Jill Grygas](https://youtube.com/@jillgrygas) - A wholesome, down-to-earth tamagotchi enthusiast who is unapologetically nerdy about it. Good for news.
 
 The channels below are ones that I have found but don't have opinions on yet:
 
-- [LeanneLand](https://youtube.com/@leanneland)
+- [Tokiitchi](https://www.youtube.com/@tokiitchi)
 - [To LoveL](https://youtube.com/@tolovel) - Tamagotchi and virtual pet news, reviews, and general "kawaii" stuff.
-- [Jill Grygas](https://youtube.com/@jillgrygas)
 - [Taylor Beem](https://youtube.com/@taylorbeem)
 - [Lost In Translationmon](https://youtube.com/@lostintranslationmon) - Not just tamagotchi, check the playlists for digimon and other virtual pets!
 - [Candiware](https://youtube.com/@candiware)
@@ -45,6 +46,8 @@ The channels below are ones that I have found but don't have opinions on yet:
 ## - Tamagotchi DIY
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3_PvOEHy1c0?si=6CxM3yi8hm907FKN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j6RfFouQwcM?si=qhm0eoeT9ZCEHlSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <ul>
 <li>DIY - Tamagotchi Customizing

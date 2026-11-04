@@ -10,7 +10,8 @@ The essential five hubs are **Tamagotchi Wiki** (encyclopedic database), **Gotch
 - **Manuals:** Tama Conservatory is the dedicated archive for virtual pet instruction manuals.
 - **Repair and mods:** Marcel's Tama Spa & Repair (Germany), Mikablu's Tama Mod Shop (USA), Tamagotchi Vietnam and TamaTinkerer (USA). Tamagotchi Center has been removed from the recommended services.
 - **Custom content:** Myiko, basketworm, Gatu and Shellytchi make characters, items, rooms and games you load onto a device; JellySnacks and Munina make faceplates and customs.
-- **Communities:** activity has shifted to Discord (Tamagotchi Collectors, about 18,500 members) and Reddit (r/tamagotchi, about 120,000 members). Several vintage fan sites are now static or archived.
+- **Classic fan sites:** Mimitchi.com (running since 1996) and Ginjirotchi.ca are the deepest vintage-era resources and both still update, so the older scene is not purely archival; others, such as Pixelmood and Tamenagerie, are static.
+- **Communities:** activity has shifted to Discord (Tamagotchi Collectors, about 18,500 members) and Reddit (r/tamagotchi, about 120,000 members).
 
 The brand passed 100 million units shipped worldwide as of July 31, 2025, which keeps new devices and fan documentation coming.
 
@@ -236,13 +237,21 @@ Subscriber counts are from Social Blade, September 2026.
 
 | Site | URL | Notes | Status |
 | --- | --- | --- | --- |
+| Mimitchi.com (Mystic Fortress) | [mimitchi.com](https://www.mimitchi.com/) | Online since 1996 and still updating — one of the oldest Tamagotchi sites anywhere. Its [Tamagotchi Planet](https://mimitchi.com/html/tindex.htm) section carries per-device info, instructions and logs for the 1990s originals, TamaSuku/Tamagotchi School, Connection, Ocean/Umino, Angelgotchi, Osutchi & Mesutchi, Morino, Santaclautchi and Paradise, plus [growth charts](https://www.mimitchi.com/html/q18.htm), 180+ pet logs, 1990s scans, comics, fan fiction and games. Also covers Furby and Sony Aibo | Run by Katherine Drake; active (Paradise coverage) |
+| Ginjirotchi.ca | [ginjirotchi.ca](http://www.ginjirotchi.ca/) | Shrine-style vintage fan site built around per-device sections and very long-running care journals — [Tamagotchi Incarnations](http://www.ginjirotchi.ca/TamaMain.html) is the hub, with dedicated areas for [Devilgotchi](http://www.ginjirotchi.ca/devil/devilmain.html), [Mothra](http://www.ginjirotchi.ca/Mothra/mothindex.html), the [Ocean Shrine](http://www.ginjirotchi.ca/Ocean/ocshrine.html) and the [20th Anniversary](http://www.ginjirotchi.ca/20thAnni/main.html) release, plus [photo galleries](http://ginjirotchi.ca/TamaPhotos.html) and an [update log](http://www.ginjirotchi.ca/updates.html) | Owner not confirmed — the site blocks automated access; blogs run to 2019+ |
+| David's Crossing | [davidscrossing.com](https://davidscrossing.com/tamagotchi/devilgotchi/index.php) | Vintage Tamagotchi logs and history, per-device: opinions, collection notes with purchase dates and prices, and dated run logs. Explicitly modelled on Ginjirotchi.ca and The Mouse House | Run by David T.; active (pages from 2022) |
+| The Mouse House | [bookmice.net/fleur/tamapage.html](http://www.bookmice.net/fleur/tamapage.html) | 1990s-era Tamagotchi page, cited as a formative influence on the later log sites | Legacy, online |
 | TamaTalk | [tamatalk.com](https://www.tamatalk.com/) | Forum since 2004 | Active |
 | Pixelmood | [tamatalk.com/pixelmood](http://www.tamatalk.com/pixelmood/index.html) | Known for "Tamagotchi Inside" and "Tamagotchi Debugging" articles | Discontinued 2011; hosted on TamaTalk |
-| Tamagotchi Planet | [tamaplanet.com](https://tamaplanet.com) | Classic-era resource | Online |
+| Tamagotchi Planet | [tamaplanet.com](https://tamaplanet.com) | Classic-era resource (distinct from Mimitchi's Tamagotchi Planet section) | Online |
 | FamiTama TamaTown | [famitama.xyz](http://famitama.xyz) | Fan re-creation of TamaTown for V5/FamiTama | Online |
 | DigiTama Hatchery | [humulos.com/digimon](https://humulos.com/digimon/) | Digimon virtual-pet hatchery (related hobby) | Online |
 | Tamagotch Channel | tamagotch.channel.or.jp | Official Japanese homepage, 1996 to early 2020 | Defunct; redirects to Bandai |
 | Bandai TamaTown | (original official site) | Browser Flash world for Connection devices | Shut down Feb 6, 2013 |
+
+Mimitchi's [Rated Tamagotchi Links](https://www.mimitchi.com/html/tamalnk.htm) is a directory of 1990s and 2000s virtual pet sites. The site itself flags it as out of date, which makes it the best single place to find further classic sites — and the best candidate list for archiving, since many entries are likely dead.
+
+For care information these two sit alongside section 2 rather than under it: Mimitchi has per-device [growth charts](https://www.mimitchi.com/html/q18.htm) and instruction pages for the vintage line ([P1/P2](https://www.mimitchi.com/html/tamagotchi_original.html), [Angelgotchi](https://www.mimitchi.com/html/q4.htm), [Osutchi & Mesutchi](https://www.mimitchi.com/html/q5.htm), [Morino](https://www.mimitchi.com/html/q7.htm)), and both sites' long-run journals are useful primary evidence for how vintage devices actually behave over a full lifespan.
 
 ## 10. Official Bandai sites
 
@@ -270,9 +279,11 @@ A separate scene from repairs: people who make characters, items, rooms and game
 | Shellytchi's Pixel Party | [shellytchi.neocities.org](https://shellytchi.neocities.org/) | Custom On/Meets/Some downloads for MyMeets V2: rooms, Tama places, Sayclub packs (autumn, fantasy, Halloween, pets), items, meals and snacks, with install instructions | Shellytchi / Jellyworms (Instagram @shellytchi, Twitter @jellywormz); last updated 2019 |
 | JellySnacks | [carrd](https://jellysnacks.carrd.co/) | Free printable Paradise faceplates and wallpapers, plus custom devices (also in section 7) | JellySnacks |
 
-**Tamagotchi Land** ([tamagotchi-land.neocities.org](https://tamagotchi-land.neocities.org/)) - dedicates itself to documenting Tamagotchi media such as console games, the anime, and in-universe lore! It also has a section with fan art and even a comic!
+**Tamagotchi Land** ([tamagotchi-land.neocities.org](https://tamagotchi-land.neocities.org/)) is a fan site documenting Tamagotchi media rather than devices: a documentation section on games, anime and other media, an in-universe lore section, a miscellaneous section with fan work, MIDI music, and a regularly updated comic with an archive. Run by one person, openly a work in progress, and welcomes corrections.
 
 ## 13. Archived captures for at-risk sites
+
+Wayback snapshots for the static, unstable and defunct sites above. Each link below was confirmed to resolve; for defunct sites the capture is from when the site was alive.
 
 | Site | Original | Archived snapshot |
 | --- | --- | --- |
@@ -289,6 +300,10 @@ A separate scene from repairs: people who make characters, items, rooms and game
 | Famitama TamaTown | famitama.xyz | [Sep 2026 capture](https://web.archive.org/web/20260918031956/https://famitama.xyz/) |
 | Tama Planet | tamaplanet.com | [May 2026 capture](https://web.archive.org/web/20260515111453/https://tamaplanet.com/) |
 
+### Corrections found while archiving
+
+- **Pixelmood is still live** on TamaTalk and its pages use `.htm`, not `.html`: [Connection debugging](https://www.tamatalk.com/pixelmood/tamagotchi_connection_debugging.htm), [Tamaotch](https://www.tamatalk.com/pixelmood/tamaotch.htm), [Plus news](https://www.tamatalk.com/pixelmood/plus_news.htm), [Collection: v-pets](https://www.tamatalk.com/pixelmood/collection_vpets.htm). No page named `tamagotchi_inside` was confirmed. No Wayback capture could be retrieved for any tamatalk.com URL, which is an API limitation rather than proof none exist — recent captures are likely non-200 behind Cloudflare. Worth archiving manually.
+- **Gotchiworld is German, not Japanese** (gotchiworld.de). The domain is now parked and for sale, so the only reachable capture shows the sale page rather than the fan content.
 
 ### Non-Wayback archives of the original TamaTown
 
@@ -296,3 +311,20 @@ A separate scene from repairs: people who make characters, items, rooms and game
 - [TamaTown V3 Mall.swf](https://archive.org/details/tamatown_v3_mall)
 - [loociano/tamatown](https://github.com/loociano/tamatown) — restoration project; its [README](https://github.com/loociano/tamatown/blob/master/README.md) documents the original v3, v4 and new subdomains and which SWFs were never archived
 - [TamaTown (2006–2013) on rip.so](https://rip.so/tamatown.html)
+
+## Recommendations
+
+1. **Start with the five anchors:** Tamagotchi Wiki, Gotchi Garden, MrBlinky plus MameMame Labs, Tama-Palace, and TamaTalk or the Discord.
+2. **Match tools to device generation:** TamaEmu for colour models, TamaLIB/TamaTool for first-gen, Tiny Pocket Friends and Tama Hacks for Smart and Uni patches, MixingMeets or MyMeets for Meets/On.
+3. **For repairs:** Tama Spa for Europe, TamaTinkerer or Mikablu for the USA, Tamagotchi Vietnam for Asia or global shipping. Check recent posts first, as slots open and close often.
+4. **Buy Smart patches only from approved sellers** listed on the Tiny Pocket Friends install guide.
+5. **Archive what you rely on:** save Wayback Machine copies of static or at-risk sites (Pixelmood, Tamenagerie, natashenka, Sprites mods, Tama Hacks).
+
+## Caveats
+
+- **Ownership is unclear** for several sites: TamaShell, MameMame Labs, Tama Hacks, Tamagotchi Vietnam and TamaTinkerer name no operator publicly.
+- **Repair services are one-person operations.** Availability, shipping regions and prices change often.
+- **Fan connectivity apps** depend on Bandai not changing its servers or apps.
+- **Member counts are approximate**, taken from invite pages or third-party trackers.
+- **Legal and risk:** emulators need your own ROM dump; patches and chip flashing can brick a device.
+- **Scope:** mostly English-language; the Japanese fan scene is larger than shown here.

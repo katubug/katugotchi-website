@@ -32,6 +32,7 @@ First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combin
 * [How to Mod a Tamagotchi Paradise](/guides/how-to-mod-tamagotchi-paradise/)
 * [Tamagotchi P2 for Android](https://github.com/LyesDemri/TamagotchiP2Android) - an Android emulator with recreations of vintage tamas (currently P2 and Santaclautchi). Behavior may differ from the originals, as they are coded from scratch, not emulated firmware. Does not require a ROM.
 * [OpenMeets](https://openmeets.app/) - An AI-assisted Meets/On emulator for Android. Closed source, must sideload APK, user assumes risk.
+* [Pocket Pikachu Emulator](https://pokpik.life/) - A web-based application which emulates the Pocket Pikachu! It even tracks your steps if you have it open on your phone.
 
 #### Where do you get ROMs/Firmware?
 Now, you're probably wondering, **where do you get ROMs, anyway**? Well, in the interest of ethics, I will tell you that the only *legal* way to acquire Tamagotchi firmware is to dump the ROM yourself. However, this requires significant electronics knowledge, and in many cases will ruin the device, and also isn't guaranteed to work. It's not an easy undertaking.
@@ -104,6 +105,8 @@ I know it's a little silly to put shops and free downloads in the same section, 
 - [ **Paid** | **Physical Items** ] [TamaYouin's Ko-Fi](https://ko-fi.com/tamayouin/shop) - Custom shells for Tamagotchi Uni, Paradise, as well as Faceplates and replacement parts.
 - [ **Free** | **Digital Items** ] [Munina's Ko-Fi](https://ko-fi.com/muninaart/shop) - free downloadable faceplates for Tamagotchi Uni and Pix, a Tama Smart Collection Journal, phone wallpapers, and a free crochet case pattern for Smart/Uni.
 - [ **Paid** | **Physical Items** ] [Naji810's Etsy](https://www.etsy.com/shop/NAJI810) - Custom shells, faceplates, screen protectors, and replacement parts like screws, buttons, and more.
+- [ **Paid** | **Physical and Digital Items** ] [Markey's Artisan's Ko-Fi](https://ko-fi.com/markeysartisan/shop) - Custom shells for tamagotchi and digimon, as well as digital items for Tamagotchi Paradise!
+- [ **Paid and Free** | **Physical and Digital Items** ] [Tokiitchi's Ko-fi](https://ko-fi.com/xoxotoki/shop) - Custom faceplates, coloring pages, and phone backgrounds.
 
 
 ### Guides and General Fansites <a name="general-fansites"></a>
