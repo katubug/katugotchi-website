@@ -48,6 +48,12 @@ body {
   background-image: url("/images/3.png");
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ::selection {
   /* (Text highlighted by the user) */
   background: rgba(0, 0, 0, 0.2);
@@ -55,7 +61,8 @@ body {
 
 /* Links: */
 a {
-  text-decoration: underline;
+  font-size: 16px;
+  text-decoration: none;;
 }
 
 a,
@@ -374,30 +381,22 @@ main h6:first-child {
 }
 
 main h1 {
-  font-size: 1.8em;
+  font-size: 24px;
   color:#9258dc;
 }
 
 main h2 {
-  font-size: 1.5em;
+  font-size: 20px;
   color:#9d65e8;
 }
 
 main h3 {
-  font-size: 1.4em;
+  font-size: 18px;
   color: #ab6efb;
 }
 
 main h4 {
-  font-size: 1.2em;
-}
-
-main h5 {
-  font-size: 1.1em;
-}
-
-main h6 {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 main img {
