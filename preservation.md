@@ -22,7 +22,7 @@ This desire to bring the joy of virtual pets to everyone, regardless of their fi
 
 ## current status <a name="current-status"></a>
 
-11/11/26 - Great news! Azya has agreed to help us with the project! I am thrilled by this news, and you should be, as well. I am looking for 
+11/11/26 - Great news! Azya has agreed to help us with the project! I am thrilled by this news, and you should be, as well.
 
 11/09/26 - We're tackling the v4.5 first. I am seeking out a decapping service and I have contacted Azya, the developer of BrickEmuPy, for help towards this goal. Azya has offered to help us through the manual bitmapping process.
 
