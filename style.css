@@ -449,6 +449,9 @@ details .small h4 {
 
 .collect_container {
   --pill-color: #e3aaf0;
+  background-color: var(--background-color);
+  padding: 10px;
+  border-radius: 15px;
   display: flex;
   flex-wrap: nowrap; /* squish, don't stack */
   gap: 2em;
@@ -488,7 +491,6 @@ details .small h4 {
   flex: 1;
   min-width: 0;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
