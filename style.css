@@ -76,6 +76,18 @@ a:focus {
   text-decoration: none;
 }
 
+.gallery-outer{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:1em;
+  text-align:center
+}
+
+.gallery-inner{
+  flex:0 0 calc(33.33% - 1em)
+}
+
 /* -------------------------------------------------------- */
 /* LAYOUT */
 /* -------------------------------------------------------- */
