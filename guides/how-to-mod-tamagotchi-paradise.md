@@ -43,7 +43,7 @@ A: As with all modding, there is a risk that you can lose save data or even bric
 
 **Q: Where can I get custom content for my Tamagotchi Paradise?**
 
-A: I have a list of links to various [Tamagotchi Shops here](/resources/#tamagotchi-shops)!
+A: I have a guide on [where to obtain downloadable content](/guides/tamagotchi-downloads/) for multiple Tamagotchi versions!
 
 **Q: What hardware do I need?**
 

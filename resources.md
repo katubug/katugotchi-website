@@ -15,10 +15,6 @@ This page will contain links to other tamagotchi tutorials or important content,
 - [Guides and General Fansites](#general-fansites)
 - [Tamagotchi Phone Apps](#tamagotchi-phone-apps)
 - [YouTube Resources](#youtube-resources)
-
-First off, here's a Tamagotchi Paradise Growth Chart that I edited, which combines Jade Forest, White Glacier, and Tropical growth charts into one image:
-
-<a href="/images/tamagotchigrowthchart.png"><img src="/images/tamagotchigrowthchart.png" width=250 height=250> Click to zoom</a>
       
 ### Tamagotchi Emulation Resources <a name="tamagotchi-emulation-resources"></a>
     
