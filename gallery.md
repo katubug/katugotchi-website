@@ -15,27 +15,27 @@ For some reason, I became obsessed with buying these silly stickers so I could s
 
 <div class="gallery-outer">
     <div class="gallery-inner">
-    <a class="lightbox" href="http://applesims.net/tamagotchi/furawatchi_sticker_tamalab_katugotchi.png"><img src="http://applesims.net/tamagotchi/furawatchi_sticker_tamalab_katugotchi.png" alt="" width="200px"></a>
+    <a class="lightbox" href="/images/scans/furawatchi_sticker_tamalab_katugotchi.png"><img src="/images/scans/furawatchi-sticker-thumb.png" alt="" width="200px"></a>
         <br>
         Furawatchi
     </div>
     <div class="gallery-inner">
-    <a class="lightbox" href="http://applesims.net/tamagotchi/mimitchi_sticker_tamalab_katugotchi.png"><img src="http://applesims.net/tamagotchi/mimitchi_sticker_tamalab_katugotchi.png" alt="" width="200px"></a>
+    <a class="lightbox" href="/images/scans/mimitchi_sticker_tamalab_katugotchi.png"><img src="/images/scans/mimitchi-sticker-thumb.png" alt="" width="200px"></a>
         <br>
         Mimitchi
     </div>
     <div class="gallery-inner">
-    <a class="lightbox" href="http://applesims.net/tamagotchi/mongatchi_sticker_tamalab_katugotchi.png"><img src="http://applesims.net/tamagotchi/mongatchi_sticker_tamalab_katugotchi.png" alt="" width="200px"></a>
+    <a class="lightbox" href="/images/scans/mongatchi_sticker_tamalab_katugotchi.png"><img src="/images/scans/mongatchi-sticker-thumb.png" alt="" width="200px"></a>
         <br>
         Mongatchi
     </div>
     <div class="gallery-inner">
-    <a class="lightbox" href="http://applesims.net/tamagotchi/poizuchi_sticker_tamalab_katugotchi.png"><img src="http://applesims.net/tamagotchi/poizuchi_sticker_tamalab_katugotchi.png" alt="" width="200px"></a>
+    <a class="lightbox" href="/images/scans/poizuchi_sticker_tamalab_katugotchi.png"><img src="/images/scans/poizuchi-sticker-thumb.png" alt="" width="200px"></a>
         <br>
         Poizuchi
     </div>
     <div class="gallery-inner">
-    <a class="lightbox" href="http://applesims.net/tamagotchi/tokipatchi_sticker_tamalab_katugotchi.png"><img src="http://applesims.net/tamagotchi/tokipatchi_sticker_tamalab_katugotchi.png" alt="" width="200px"></a>
+    <a class="lightbox" href="/images/scans/tokipatchi_sticker_tamalab_katugotchi.png"><img src="/images/scans/tokipatchi-sticker-thumb.png" alt="" width="200px"></a>
         <br>
         Tokipatchi
     </div>
@@ -47,12 +47,12 @@ Some high-quality scans of my favorite Tamagotchi Boxes. More incoming soon.
 
 ## Robot and Friends <a name="robot-and-friends"></a>
 
-<a class="lightbox" href="http://applesims.net/tamagotchi/tama-scan-robot-front_katugotchi.png"><img src="/images/scans/tama-scan-robot-front-thumb.png"></a>
+<a href="http://applesims.net/tamagotchi/tama-scan-robot-front_katugotchi.png"><img src="/images/scans/tama-scan-robot-front-thumb.png"></a>
 
-<a class="lightbox" href="http://applesims.net/tamagotchi/tama-scan-robot-inside_katugotchi.png"><img src="/images/scans/tama-scan-robot-inside-thumb.png"></a>
+<a href="http://applesims.net/tamagotchi/tama-scan-robot-inside_katugotchi.png"><img src="/images/scans/tama-scan-robot-inside-thumb.png"></a>
 
 ## Time Travel <a name="time-travel"></a>
 
-<a class="lightbox" href="http://applesims.net/tamagotchi/tama-scan-time-front_katugotchi.png"><img src="/images/scans/tama-scan-time-front-thumb.png"></a>
+<a href="http://applesims.net/tamagotchi/tama-scan-time-front_katugotchi.png"><img src="/images/scans/tama-scan-time-front-thumb.png"></a>
 
-<a class="lightbox" href="http://applesims.net/tamagotchi/tama-scan-time-inside_katugotchi.png"><img src="/images/scans/tama-scan-time-inside-thumb.png"></a>
+<a href="http://applesims.net/tamagotchi/tama-scan-time-inside_katugotchi.png"><img src="/images/scans/tama-scan-time-inside-thumb.png"></a>
