@@ -103,6 +103,7 @@ I know it's a little silly to put shops and free downloads in the same section, 
 - [ **Paid** | **Physical Items** ] [Naji810's Etsy](https://www.etsy.com/shop/NAJI810) - Custom shells, faceplates, screen protectors, and replacement parts like screws, buttons, and more.
 - [ **Paid** | **Physical and Digital Items** ] [Markey's Artisan's Ko-Fi](https://ko-fi.com/markeysartisan/shop) - Custom shells for tamagotchi and digimon, as well as digital items for Tamagotchi Paradise!
 - [ **Paid and Free** | **Physical and Digital Items** ] [Tokiitchi's Ko-fi](https://ko-fi.com/xoxotoki/shop) - Custom faceplates, coloring pages, and phone backgrounds.
+- [ **Free** | **Digital Item** ] [Tama Bath Phone Wallpaper](https://www.reddit.com/r/tamagotchi/comments/1xt3dgi/drew_a_tama_wallpaper_for_my_phone/) - by /u/WarForMuffin on reddit!
 
 
 ### Guides and General Fansites <a name="general-fansites"></a>
